@@ -1,0 +1,19 @@
+input: .
+output: website
+
+url: docs.example.com # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: Cours de Physique - 2nde general
+  label: Docs
+
+links:
+  - text: Ho;e
+    link: https://retype.com/guides/getting-started/
+
+footer:
+  copyright: "&copy; Copyright S Zayyani {{ 2025 }}. All rights reserved."
