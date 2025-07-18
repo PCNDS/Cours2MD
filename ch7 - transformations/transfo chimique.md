@@ -54,7 +54,7 @@ c’est-à-dire :
 </div>
 
 <figure>
-<p><span>h</span> <img src="img/7/etats.jpg" alt="image" /></p>
+<p><span>h</span> <img src="../img/7/etats.jpg" alt="image" /></p>
 </figure>
 
 Nous voyons donc que les méthodes de mesures de quantités exactes sont
@@ -214,7 +214,7 @@ suivantes :
 </div>
 
 <figure>
-<img src="img/7/xo1.jpg" />
+<img src="../img/7/xo1.jpg" />
 </figure>
 
 ## Aspects énergétique d’une réaction chimique
@@ -280,13 +280,13 @@ transformation, est évidente !!
 # Exercices Résolus
 
 <figure>
-<img src="img/7/xo2.jpg" />
+<img src="../img/7/xo2.jpg" />
 </figure>
 
 <figure>
-<img src="img/7/xo3.jpg" />
+<img src="../img/7/xo3.jpg" />
 </figure>
 
 <figure>
-<img src="img/7/xo4.jpg" />
+<img src="../img/7/xo4.jpg" />
 </figure>

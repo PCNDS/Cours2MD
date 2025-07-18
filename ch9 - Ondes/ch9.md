@@ -57,7 +57,7 @@ tension 60 fois chaque seconde.
 </div>
 
 <figure>
-<img src="img/9/periodeLongdonde.jpg" style="width:80.0%" />
+<img src="../img/9/periodeLongdonde.jpg" style="width:80.0%" />
 </figure>
 
 <div class="shaded">
@@ -68,7 +68,7 @@ l’onde suivante :
 </div>
 
 <figure>
-<img src="img/9/xoPeriode.jpg" style="width:50.0%" />
+<img src="../img/9/xoPeriode.jpg" style="width:50.0%" />
 </figure>
 
 <div class="leftbar">
@@ -149,7 +149,7 @@ poches de pression différente à celle du reste du milieu, comme dans la
 figure suivante:
 
 <figure>
-<img src="img/9/ondeair.jpg" style="width:70.0%" />
+<img src="../img/9/ondeair.jpg" style="width:70.0%" />
 </figure>
 
 La **perception du son**, que ce soit avec nos oreilles ou avec un
@@ -210,7 +210,7 @@ distincte d’un son (ou d’une voix par exemple) est son timbre, c’est à
 dire la **forme de l’onde sonore** produite par l’instrument ou la voix.
 
 <figure>
-<img src="img/9/formeonde2.jpg" style="width:75.0%" />
+<img src="../img/9/formeonde2.jpg" style="width:75.0%" />
 </figure>
 
 Nous pouvons davantage analyser le timbre d’un son, afin de mieux
@@ -235,7 +235,7 @@ frequency spectrum</span>)***
 </div>
 
 <figure>
-<img src="img/9/spectre.jpg" style="width:70.0%" />
+<img src="../img/9/spectre.jpg" style="width:70.0%" />
 </figure>
 
 <div class="shaded">
@@ -249,7 +249,7 @@ spectre de fréquence de la voix, par exemple
 </div>
 
 <figure>
-<img src="img/9/formeonde3.jpg" />
+<img src="../img/9/formeonde3.jpg" />
 </figure>
 
 <div class="mdframed">
@@ -301,7 +301,7 @@ des valeur, et c’est très utile quand la gamme des valeurs est très
 large. **Elle montre sur un petit espace une large gamme de valeurs**.
 
 <figure id="fig:niveauxson">
-<img src="img/9/niveauxsonores.jpg" />
+<img src="../img/9/niveauxsonores.jpg" />
 <figcaption>Quelques niveaux sonores</figcaption>
 </figure>
 
@@ -317,7 +317,7 @@ cette échelle, cela veut dire que le tremblement à été 10 fois plus
 puissant; de 6 à 9 veut dire 1000 fois plus puissant.
 
 <figure>
-<img src="img/9/logaxe.jpg" />
+<img src="../img/9/logaxe.jpg" />
 </figure>
 
 Dans le cas du niveau sonore chaque augmentation de $`10\; dB`$ signifie

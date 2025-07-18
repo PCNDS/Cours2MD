@@ -1,5 +1,4 @@
---- 
-Title : Préambule & Préliminaires 
-Order : 990
-Icon : 
----
+icon: rocket
+order: 1000
+expanded: true
+label: Préambule & Préliminaires

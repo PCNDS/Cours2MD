@@ -116,7 +116,7 @@ Ils parlent notamment de deux phénomènes : la **réflexion** et la
 
 <div class="wrapfigure">
 
-r0.4 <img src="11/reflexion.jpg" style="width:40.0%" alt="image" />
+r0.4 <img src="../img/11/reflexion.jpg" style="width:40.0%" alt="image" />
 
 </div>
 
@@ -152,19 +152,19 @@ Descartes-Snell, c’est à dire $`i=r`$.*
 
 <figure>
 <figure>
-<img src="11/refraction3.jpg" />
+<img src="../img/11/refraction3.jpg" />
 </figure>
 <figure>
-<img src="11/refraction1.jpg" />
+<img src="../img/11/refraction1.jpg" />
 </figure>
 <figure>
-<img src="11/2efraction1.jpg" />
+<img src="../img/11/2efraction1.jpg" />
 </figure>
 <figcaption>Trois exemples de réfraction dans le quotidien</figcaption>
 </figure>
 
 <figure>
-<img src="11/descartes.jpg" style="width:70.0%" />
+<img src="../img/11/descartes.jpg" style="width:70.0%" />
 <figcaption>Schéma légendé d’une réfraction.</figcaption>
 </figure>
 

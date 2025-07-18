@@ -1,3 +1,8 @@
+---
+Title : Description du Mouvement 
+order : 100
+---
+
 # Référentiel & Mouvement
 
 Comme d’habitude, les grandes découvertes commencent par des questions
@@ -106,7 +111,7 @@ point de référence. Par conséquent, le mouvement du système étudié
 dépendra de ce choix.
 
 <figure>
-<img src="img/5/heliogeo.png" />
+<img src="../img/5/heliogeo.png" />
 </figure>
 
 Naturellement il y une infinité de référentiel possible, mais en
@@ -230,13 +235,13 @@ distances $`d`$ consécutives parcourues pendant la même durée $`t`$ :
   <span style="color: purple">(= decelerated</span>)
 
 <figure>
-<img src="img/5/xo1.jpg" />
+<img src="../img/5/xo1.jpg" />
 </figure>
 
 <figure>
-<img src="img/5/xo2.jpg" />
+<img src="../img/5/xo2.jpg" />
 </figure>
 
 <figure>
-<img src="img/5/xo3.jpg" />
+<img src="../img/5/xo3.jpg" />
 </figure>

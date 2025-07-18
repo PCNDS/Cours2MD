@@ -128,7 +128,7 @@ bond</span>)), ou plus précisément une **liaison covalente**.
 
 <div class="wrapfigure">
 
-r3cm <img src="img/2/glucose.png" style="width:3cm" alt="image" />
+r3cm <img src="../img/2/glucose.png" style="width:3cm" alt="image" />
 
 </div>
 
@@ -189,7 +189,7 @@ Voici un tableau de quelques éléments et le nombre de liaisons
 covalentes :
 
 <figure>
-<img src="img/2/tableauliaisons.png" />
+<img src="../img/2/tableauliaisons.png" />
 <figcaption>nombres de liaisons pour différentes colonnes</figcaption>
 </figure>
 
@@ -213,7 +213,7 @@ Il faut satisfaire la règle de l’octet. Or chaque tiret représente deux
 les doublets liants et non-liants.
 
 <figure>
-<img src="img/2/tableauliaisons2.png" />
+<img src="../img/2/tableauliaisons2.png" />
 </figure>
 
 <div class="shaded">
@@ -234,11 +234,11 @@ la vie) :
 
 <figure id="fig:O2">
 <figure id="fig:eau">
-<img src="img/2/lewis3.jpg" style="width:50.0%" />
+<img src="../img/2/lewis3.jpg" style="width:50.0%" />
 <figcaption>Molécule d’eau</figcaption>
 </figure>
 <figure id="fig:O2">
-<img src="img/2/lewis4.jpg" style="width:50.0%" />
+<img src="../img/2/lewis4.jpg" style="width:50.0%" />
 <figcaption>Molécule de dioxygène</figcaption>
 </figure>
 <figcaption>Molécule de dioxygène</figcaption>
@@ -252,7 +252,7 @@ la vie) :
 </div>
 
 <figure id="fig:cyan">
-<img src="img/2/cyan.png" />
+<img src="../img/2/cyan.png" />
 <figcaption>Molécule de cyanure d’hydrogène</figcaption>
 </figure>
 
@@ -286,7 +286,7 @@ dichlore : $`C\ell_2`$ ; diazote : $`N_2`$ ; eau : $`H_2O`$ ; méthane :
 $`CH_4`$ ; ammoniac : $`NH_3`$ ; éthane : $`C_2H_6`$  
 
 <figure>
-<img src="img/2/egs.jpg" />
+<img src="../img/2/egs.jpg" />
 </figure>
 
 </div>
@@ -321,13 +321,13 @@ molécule et leurs nombres. Exemple :
 formule</span>)) : Une formule développée fait apparaître l’ensemble des
 atomes d’une molécule et liaisons covalente qui les relient. Exemple :
 
-<img src="img/2/develop.png" alt="image" />
+<img src="../img/2/develop.png" alt="image" />
 
 **Formule semi-développée** : La formule semi-développée n’indique pas
 les liaisons avec les atomes d’hydrogène. Les symboles de ces atomes
 sont groupés avec ceux des atomes auxquels ils sont liés. Exemples :
 
-<img src="img/2/semidev.png" alt="image" />
+<img src="../img/2/semidev.png" alt="image" />
 
 </div>
 
@@ -349,7 +349,7 @@ différents**.
 </div>
 
 <figure>
-<img src="img/2/isomeres.png" />
+<img src="../img/2/isomeres.png" />
 <figcaption>Différentes représentation d’une même formule
 semi-développée</figcaption>
 </figure>
@@ -394,23 +394,23 @@ plus importants et les plus répandus en chimie organiques (et les
 médicaments).
 
 <figure>
-<img src="img/2/groupecar.jpg" />
+<img src="../img/2/groupecar.jpg" />
 <figcaption>Les groupes caractéristiques principaux à
 connaître</figcaption>
 </figure>
 
 <figure>
-<img src="img/2/groupecar2.jpg" />
+<img src="../img/2/groupecar2.jpg" />
 </figure>
 
 <figure>
-<img src="img/2/xo1.jpg" />
+<img src="../img/2/xo1.jpg" />
 </figure>
 
 <figure>
-<img src="img/2/xo2.jpg" />
+<img src="../img/2/xo2.jpg" />
 </figure>
 
 <figure>
-<img src="img/2/xo2a.jpg" />
+<img src="../img/2/xo2a.jpg" />
 </figure>

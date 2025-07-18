@@ -1,3 +1,8 @@
+---
+title : 
+order : 1
+---
+
 # L’atome
 
 ## Un peu d’histoire
@@ -74,7 +79,7 @@ La théorie (ou modèle) atomique actuel dit que :
 Voici un tableau récapitulatif :
 
 <figure id="fig:tableau 1">
-<img src="img/1/tableau1.png" />
+<img src="../img/1/tableau1.png" />
 <figcaption>propriétés des composants d’un atome, Où <span
 class="math inline"><em>e</em>= 1, 6 ⋅ 10<sup>−19</sup> <em>C</em></span>
 ; (<span class="math inline"><em>C</em></span> = Coulomb, unité de
@@ -101,7 +106,7 @@ du symbole, on fait figurer le nombre de nucléons A et en bas à gauche
 le numéro atomique Z :
 
 <figure>
-<img src="img/1/symbole.png" />
+<img src="../img/1/symbole.png" />
 <figcaption>représentation symbolique d’un noyau atomique </figcaption>
 </figure>
 
@@ -253,7 +258,7 @@ l’atome de fer.
   Considérons l’exemple suivant :
 
   <figure>
-  <img src="img/1/cuivre.png" />
+  <img src="../img/1/cuivre.png" />
   </figure>
 
 - Dans les quatre cas, **l’atome ou l’ion contient 29 protons** dans le
@@ -329,7 +334,7 @@ structure électronique de l’atome :
   macroscopique, transposées sans preuves dans le monde *microscopique*.
 
   <figure>
-  <img src="img/1/quantique.jpg" />
+  <img src="../img/1/quantique.jpg" />
   <figcaption>Image simplifiée de l’arrachement d’un électron du nuage
   électronique dans le modèle de Schrödinger. La notion de « trajectoire »
   n’est plus valable</figcaption>
@@ -346,7 +351,7 @@ structure électronique de l’atome :
   électroniques.
 
 <figure>
-<img src="img/1/atomodels.png" />
+<img src="../img/1/atomodels.png" />
 </figure>
 
 ## Répartition des électrons dans un atome
@@ -522,7 +527,7 @@ résumé :
 Voici quelques exemples :
 
 <figure>
-<img src="img/1/tableau2.png" />
+<img src="../img/1/tableau2.png" />
 </figure>
 
 <div class="shaded">

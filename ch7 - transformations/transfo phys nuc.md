@@ -38,7 +38,7 @@ depuis longtemps) sont des transformations physiques.
 </div>
 
 <figure id="fig:etats">
-<img src="img/8/etats.jpg" />
+<img src="../img/8/etats.jpg" />
 <figcaption>Les états de la matière</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ transition</span>)***
 </div>
 
 <figure id="fig:etats2">
-<img src="img/8/etats2.jpg" style="width:80.0%" />
+<img src="../img/8/etats2.jpg" style="width:80.0%" />
 <figcaption>les changements d’état et les trois états de la
 matière</figcaption>
 </figure>
@@ -87,7 +87,7 @@ Comme déjà mentionné précédemment l’état d’une substance et les
 changements d’état dépendent de la température.
 
 <figure>
-<img src="img/8/etatstemp.jpg" />
+<img src="../img/8/etatstemp.jpg" />
 <figcaption>Rôle de la température dans les changements
 d’état</figcaption>
 </figure>
@@ -122,7 +122,7 @@ l’extérieur.
 ## Énergie de changement d’état
 
 <figure id="fig:courbefusion">
-<img src="img/8/courbefusion.jpg" />
+<img src="../img/8/courbefusion.jpg" />
 <figcaption>Évolution de la température d’une glaçon en fonction du
 temps</figcaption>
 </figure>
@@ -234,7 +234,7 @@ Le noyau peut devenir moins stable. Un noyau instable a tendance à se
 désintégrer spontanément : c’est la ***radioactivité***.
 
 <figure>
-<img src="img/8/desintegre.jpg" />
+<img src="../img/8/desintegre.jpg" />
 </figure>
 
 Comme vous pouvez l’imaginer, pour un atome, certains isotopes sont plus
@@ -263,7 +263,7 @@ $`U-234`$, $`U-235`$, $`U-238`$, $`U-239`$, ...).
 Voici **les trois types de radioactivité** dans la nature :
 
 <figure>
-<img src="img/8/egdesintegre.jpg" style="width:90.0%" />
+<img src="../img/8/egdesintegre.jpg" style="width:90.0%" />
 </figure>
 
 ## Fission et Fusion : transformations nucléaires provoquées
@@ -273,7 +273,7 @@ Il existe deux autres transformations, dites provoquées. Elles n’ont pas
 lieu au hasard, et l’on peut créer les conditions pour les provoquer.
 
 <figure>
-<img src="img/8/fissionfusion.jpg" />
+<img src="../img/8/fissionfusion.jpg" />
 <figcaption>Fission à gauche, et Fusion à droite</figcaption>
 </figure>
 
@@ -381,26 +381,26 @@ Voici un exemple de la réaction de fission qui a lieu au coeur des
 réacteurs nucléaires terrestres, qui est la source de leur énergie :
 
 <figure>
-<img src="img/8/fissionexemple.jpg" style="width:65.0%" />
+<img src="../img/8/fissionexemple.jpg" style="width:65.0%" />
 </figure>
 
 Voici un exemple de la réaction de fusion (thermonucléaire) qui a lieu
 au coeur des étoiles, qui est la source de leur énergie :
 
 <figure>
-<img src="img/8/fusionexemple.jpg" />
+<img src="../img/8/fusionexemple.jpg" />
 </figure>
 
 # Exercices corrigés
 
 <figure>
-<img src="img/8/xoproportionalite.jpg" />
+<img src="../img/8/xoproportionalite.jpg" />
 </figure>
 
 <figure>
-<img src="img/8/cxoproportionalite.jpg" />
+<img src="../img/8/cxoproportionalite.jpg" />
 </figure>
 
 <figure>
-<img src="img/8/xoenergies.jpg" />
+<img src="../img/8/xoenergies.jpg" />
 </figure>

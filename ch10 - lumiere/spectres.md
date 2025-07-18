@@ -2,7 +2,7 @@
 
 <div class="wrapfigure">
 
-r0.3 <img src="img/10/dsotm.jpg" alt="image" />
+r0.3 <img src="../img/10/dsotm.jpg" alt="image" />
 
 </div>
 
@@ -29,7 +29,7 @@ même en absence d’un milieu matériel.*
 </div>
 
 <figure>
-<img src="img/10/lumblanche.jpg" style="width:80.0%" />
+<img src="../img/10/lumblanche.jpg" style="width:80.0%" />
 </figure>
 
 Nous avons déjà vu au collège que la lumière blanche est composée de
@@ -95,7 +95,7 @@ parallèle, équidistant et très rapprochés).
 ## Différents catégories de spectres lumineux
 
 <figure>
-<img src="img/10/specTOUT.jpg" style="width:65.0%" />
+<img src="../img/10/specTOUT.jpg" style="width:65.0%" />
 </figure>
 
 Nous parlons principalement de deux catégories de spectres :
@@ -143,7 +143,7 @@ spectres sont
   radiation</span>).
 
 <figure>
-<img src="img/10/spectretherm.jpg" style="width:70.0%" />
+<img src="../img/10/spectretherm.jpg" style="width:70.0%" />
 </figure>
 
 ### Spectres de raies
@@ -160,7 +160,7 @@ spectre de raies qui lui est propre. **Un spectre de raies constitue la
 signature d’un élément et révèle sa présence.**
 
 <figure>
-<img src="img/10/spectreraies.jpg" style="width:90.0%" />
+<img src="../img/10/spectreraies.jpg" style="width:90.0%" />
 </figure>
 
 La science de **spectroscopie** est l’exploitation de ce fait, c’est à
@@ -186,13 +186,13 @@ des deux produit le spectre continu de la lumière blanche).**
 spectres :**
 
 <figure>
-<img src="img/10/methodespectres.jpg" />
+<img src="../img/10/methodespectres.jpg" />
 </figure>
 
 **Résumé des trois types de spectres :**
 
 <figure>
-<img src="img/10/specTOUT.jpg" style="width:80.0%" />
+<img src="../img/10/specTOUT.jpg" style="width:80.0%" />
 <figcaption>De haut vers le bas : un spectre d’origine thermique, un
 spectre d’emission de raies, un spectre d’absorption</figcaption>
 </figure>
@@ -204,7 +204,7 @@ Une des applications principales de cette science est dans
 l’**astrophysique**, pour la détection de la composition des étoiles.
 
 <figure>
-<img src="img/10/spectroscopie.jpg" />
+<img src="../img/10/spectroscopie.jpg" />
 </figure>
 
 Une étoile peut être assimilée à **une boule de gaz très chaud**, sous
@@ -229,13 +229,13 @@ chimique de son atmosphère.
 # Exercices Résolus
 
 <figure>
-<img src="img/10/xoSPEC.jpg" style="width:85.0%" />
+<img src="../img/10/xoSPEC.jpg" style="width:85.0%" />
 </figure>
 
 <figure>
-<img src="img/10/xoSPEC3.jpg" />
+<img src="../img/10/xoSPEC3.jpg" />
 </figure>
 
 <figure>
-<img src="img/10/xoSPEC2.jpg" />
+<img src="../img/10/xoSPEC2.jpg" />
 </figure>

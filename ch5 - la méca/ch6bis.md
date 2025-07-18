@@ -2,7 +2,7 @@
 
 <div class="wrapfigure">
 
-r0.25 <img src="img/6/gravAB.png" style="width:25.0%" alt="image" />
+r0.25 <img src="../img/6/gravAB.png" style="width:25.0%" alt="image" />
 
 </div>
 
@@ -293,15 +293,15 @@ vitesse de direction parallèle à la surface terrestre. On peut envisager
     cette vitesse d’échappement.
 
 <figure>
-<img src="img/6/grav3.jpg" />
+<img src="../img/6/grav3.jpg" />
 </figure>
 
 # Exercices Résolus
 
 <figure>
-<img src="img/6/xo5.jpg" />
+<img src="../img/6/xo5.jpg" />
 </figure>
 
 <figure>
-<img src="img/6/xo6.jpg" />
+<img src="../img/6/xo6.jpg" />
 </figure>

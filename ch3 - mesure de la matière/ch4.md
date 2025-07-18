@@ -93,7 +93,7 @@ peut être notée : $`[\ch{C12H22O11}]=\dfrac{n_{\ch{C12H22O11}}}{V}`$.*
 ## Préparer une solution 
 
 <figure>
-<img src="img/4/soln.png" style="width:90.0%" />
+<img src="../../img/4/soln.png" style="width:90.0%" />
 <figcaption>Les étapes de préparation d’une solution</figcaption>
 </figure>
 
@@ -188,7 +188,7 @@ de façon à obtenir un $`V'`$.
 Voici la réalisation pratique d’une dilution :
 
 <figure>
-<img src="img/4/dilu.png" />
+<img src="../../img/4/dilu.png" />
 <figcaption>Les différentes étape d’une dilution</figcaption>
 </figure>
 
@@ -207,13 +207,13 @@ $`\nicefrac{1}{100}`$ de la concentration mère.
 </div>
 
 <figure>
-<img src="img/4/xo4.png" />
+<img src="../../img/4/xo4.png" />
 </figure>
 
 <figure>
-<img src="img/4/xo5.png" />
+<img src="../../img/4/xo5.png" />
 </figure>
 
 <figure>
-<img src="img/4/xo6.png" />
+<img src="../../img/4/xo6.png" />
 </figure>

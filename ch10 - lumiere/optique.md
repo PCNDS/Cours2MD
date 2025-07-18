@@ -59,7 +59,7 @@ catégories de lentilles. Celles qui nous intéressent et que l’on va
 </div>
 
 <figure id="fig:lentillemince">
-<img src="img/12/lentillesminces.png" style="width:70.0%" />
+<img src="../img/12/lentillesminces.png" style="width:70.0%" />
 <figcaption>exemples de lentilles minces</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ suivantes :
 - 
 
 <figure id="fig:rayonsconvergent">
-<img src="img/12/rayons.jpg" />
+<img src="../img/12/rayons.jpg" />
 <figcaption>Comportement des rayons à travers une lentille
 convergente.</figcaption>
 </figure>
@@ -146,10 +146,10 @@ data-reference="fig:convergediverge">4</a> )
 
 <figure id="fig:convergediverge">
 <figure>
-<img src="img/12/convergente.jpg" />
+<img src="../img/12/convergente.jpg" />
 </figure>
 <figure>
-<img src="img/12/divergente.jpg" />
+<img src="../img/12/divergente.jpg" />
 </figure>
 <figcaption>Lentille convergente à gauche &amp; lentille divergente à
 droite.</figcaption>
@@ -163,19 +163,19 @@ suivantes :
 
 <figure>
 <figure>
-<img src="img/12/construct1.jpg" />
+<img src="../img/12/construct1.jpg" />
 </figure>
 <figure>
-<img src="img/12/constrcut2.jpg" />
+<img src="../img/12/constrcut2.jpg" />
 </figure>
 <figure>
-<img src="img/12/constrct3.jpg" />
+<img src="../img/12/constrct3.jpg" />
 </figure>
 <figure>
-<img src="img/12/constrct4.jpg" />
+<img src="../img/12/constrct4.jpg" />
 </figure>
 <figure>
-<img src="img/12/constrct5.jpg" />
+<img src="../img/12/constrct5.jpg" />
 </figure>
 <figcaption>Les étapes de la construction d’une image à travers une
 lentille convergente.</figcaption>
@@ -187,7 +187,7 @@ lentille convergente.</figcaption>
 
 <div class="center">
 
-<img src="img/12/imageconstruct.jpg" alt="image" />
+<img src="../img/12/imageconstruct.jpg" alt="image" />
 
 </div>
 
@@ -199,7 +199,7 @@ lentille convergente.</figcaption>
 
 <div class="center">
 
-<img src="img/12/diverge.jpg" style="width:60.0%" alt="image" />
+<img src="../img/12/diverge.jpg" style="width:60.0%" alt="image" />
 
 </div>
 
@@ -237,7 +237,7 @@ de la lumière, comme mentionné précédemment.
 
 <div class="center">
 
-<img src="img/12/imagesvirtuelle.jpg" style="width:60.0%" alt="image" />
+<img src="../img/12/imagesvirtuelle.jpg" style="width:60.0%" alt="image" />
 
 </div>
 
@@ -310,7 +310,7 @@ Magnification</span>)***
 
 <div class="center">
 
-<img src="img/12/exemple.jpg" style="width:80.0%" alt="image" />
+<img src="../img/12/exemple.jpg" style="width:80.0%" alt="image" />
 
 </div>
 
@@ -393,7 +393,7 @@ milieux différents)...
 
 <div class="wrapfigure">
 
-l0.5 <img src="img/12/oeil.jpg" style="width:95.0%" alt="image" />
+l0.5 <img src="../img/12/oeil.jpg" style="width:95.0%" alt="image" />
 
 </div>
 
@@ -419,7 +419,7 @@ entre la lentille et l’écran est de $`17mm`$ afin de bien modéliser la
 taille réelle de l’œil humain.
 
 <figure id="fig:\oe ilcompare">
-<img src="img/12/oeil4.jpg" />
+<img src="../img/12/oeil4.jpg" />
 <figcaption>œil réel &amp; œil réduit</figcaption>
 </figure>
 
@@ -440,10 +440,10 @@ data-reference="fig:acommode">6</a>).
 
 <figure id="fig:acommode">
 <figure>
-<img src="img/12/acommodation.jpg" />
+<img src="../img/12/acommodation.jpg" />
 </figure>
 <figure>
-<img src="img/12/acommodation.png" />
+<img src="../img/12/acommodation.png" />
 </figure>
 <figcaption>L’accommodation de l’œil</figcaption>
 </figure>
@@ -526,10 +526,10 @@ myopie.
 
 <figure id="fig:myope">
 <figure>
-<img src="img/12/myope.jpg" />
+<img src="../img/12/myope.jpg" />
 </figure>
 <figure>
-<img src="img/12/myope2.jpg" />
+<img src="../img/12/myope2.jpg" />
 </figure>
 <figcaption>L’œil myope.</figcaption>
 </figure>
@@ -544,10 +544,10 @@ lunettes dépend du degré d’hypermétropie.
 
 <figure id="fig:hypermet">
 <figure>
-<img src="img/12/hypermet.jpg" />
+<img src="../img/12/hypermet.jpg" />
 </figure>
 <figure>
-<img src="img/12/hypermet2.jpg" />
+<img src="../img/12/hypermet2.jpg" />
 </figure>
 <figcaption>L’œil hypermétrope.</figcaption>
 </figure>

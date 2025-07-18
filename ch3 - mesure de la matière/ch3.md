@@ -8,8 +8,7 @@ de matière bientôt, mais d’abord nous allons parler de grandeurs
 courantes, qui nous aide à déterminer la portion d’une matière qui est
 constituée d’une substance.
 
-<div class="leftbar">
-
+!!!
 **Définition : *Fraction massique***
 
 - La fraction massique $`f_m`$ est une grandeur qui représente la
@@ -18,14 +17,14 @@ constituée d’une substance.
   totale.
 
 - La fraction massique est donnée par la relation suivante :
-  ``` math
+  $$
   f_m = \dfrac{m_{espèce}}{m_{totale}} \hspace{15pt} \text{où } 
           \begin{cases}
           f \longrightarrow\text{fraction massique \quad (sans unité)} \\
           m_{espèce} \longrightarrow\text{masse du composant de l'échantillon} \quad (\text{$g$ ou $Kg$})\\
           m_{totale} \longrightarrow\text{masse totale de l'échantillon} \quad (\text{$g$ ou $Kg$})
           \end{cases}
-  ```
+  
 
 </div>
 
@@ -62,19 +61,19 @@ de chlorure de sodium avec le pourcentage massique $`10\%`$.
 
 **Définition : *Fraction volumique***
 
-- La fraction volumique $`f_V`$ est une grandeur qui représente la
+- La fraction volumique $f_V$ est une grandeur qui représente la
   composition d’un mélange gazeux exprimée comme la proportion du volume
   de chaque gaz composant le mélange et le volume total du mélange.
 
 - La fraction volumique est donnée par la relation suivante :
-  ``` math
+  $$
   f_V = \dfrac{V_{espèce}}{V_{totale}} \hspace{15pt} \text{où } 
           \begin{cases}
           f_V \longrightarrow\text{fraction volumique \quad (sans unité)} \\
           V_{espèce} \longrightarrow\text{Volume du composant de l'échantillon} \quad (\text{$L$ ou $m^3$})\\
           V_{totale} \longrightarrow\text{Volume totale de l'échantillon} \quad (\text{$L$ ou $m^3$})
           \end{cases}
-  ```
+  $$
 
 </div>
 
@@ -148,14 +147,14 @@ unité bien adaptée à l’échelle macroscopique.
 
 - Le nombre d’entités élémentaires $`N`$ dans un échantillon de $`n`$
   moles est donné par la formule :
-  ``` math
+  $$
   N = n\cdot N_\mathcal{A} \hspace{30pt} \text{où } \hspace{30pt}
           \begin{cases}
           N \longrightarrow\text{nombre d'entité dans l'échantillons \quad (sans unité)} \\
           n \longrightarrow\text{quantité de matière} \quad (mol)\\
           N_\mathcal{A} \longrightarrow\text{constante d'Avogardo} \quad (mol^{-1})
           \end{cases}
-  ```
+  $$
 
 </div>
 
@@ -229,14 +228,14 @@ La masse d’une mole d’atome à l’état naturel, c’est-à-dire compte ten
 de tous ses isotopes, et de leur abondance relative.  
 Il existe une relation entre la quantité de matière n et la masse
 molaire $`M`$ :
-``` math
+$$
 n = \dfrac{m}{M} \hspace{15pt} \Longleftrightarrow \hspace{15pt} m=n\cdot M \hspace{10pt}\text{où } \hspace{10pt}
         \begin{cases}
         m \longrightarrow\text{la masse de l'échantillon \quad (grammes)} \\
         n \longrightarrow\text{quantité de matière} \quad (mol)\\
         M \longrightarrow\text{masse molaire} \quad (\; g\cdot mol^{-1})
         \end{cases}
-```
+$$
 
 </div>
 
@@ -290,14 +289,14 @@ gazeux est donné par la **loi d’Avogadro-Ampère** .
   $`L\cdot mol^{-1}`$.
 
 - la quantité de matière d’un gaz est donnée par la relation suivante :
-  ``` math
+  $$
   n = \dfrac{V}{V_M} \hspace{15pt} \Longleftrightarrow \hspace{15pt} V=n\cdot V_M \hspace{10pt}\text{où } \hspace{10pt}
           \begin{cases}
           V \longrightarrow\text{la Volume du gaz parfait \quad (L)} \\
           n \longrightarrow\text{quantité de matière} \quad (mol)\\
           V_M \longrightarrow\text{Volume molaire} \quad (L\cdot mol^{-1})
           \end{cases}
-  ```
+  $$
 
 </div>
 
@@ -339,13 +338,13 @@ $`\triangleright \quad`$**Exercice .**
 </div>
 
 <figure>
-<img src="img/4/xo1.png" />
+<img src="../img/4/xo1.png" />
 </figure>
 
 <figure>
-<img src="img/4/xo2.png" />
+<img src="../img/4/xo2.png" />
 </figure>
 
 <figure>
-<img src="img/4/xo3.png" />
+<img src="../img/4/xo3.png" />
 </figure>

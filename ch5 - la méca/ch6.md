@@ -1,3 +1,8 @@
+---
+Title : Actions & Forces
+order : 1
+---
+
 # Forces
 
 <div class="leftbar">
@@ -61,7 +66,7 @@ forces** – aussi appelé un **diagramme du corps libre**
 montre le **bilan des forces**.
 
 <figure>
-<img src="img/6/fbd.png" />
+<img src="../img/6/fbd.png" />
 <figcaption>Deux exemples de diagramme de bilan des forces.</figcaption>
 </figure>
 
@@ -176,17 +181,17 @@ Explications :
 # Exercices Résolus
 
 <figure>
-<img src="img/6/xo1.jpg" />
+<img src="../img/6/xo1.jpg" />
 </figure>
 
 <figure>
-<img src="img/6/xo2.jpg" />
+<img src="../img/6/xo2.jpg" />
 </figure>
 
 <figure>
-<img src="img/6/xo3.jpg" />
+<img src="../img/6/xo3.jpg" />
 </figure>
 
 <figure>
-<img src="img/6/xo4.jpg" />
+<img src="../img/6/xo4.jpg" />
 </figure>
