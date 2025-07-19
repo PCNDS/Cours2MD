@@ -16,38 +16,30 @@ trois définitions importantes :
 **Formule Brute** : La formule brute indique les atomes présents dans la
 molécule et leurs nombres. Exemple :
 
-$$\text{Butane} \quad \quad\quad C_4H_{10} \quad \quad \quad \quad ;     \quad \quad \quad \text{Ethanol   }\quad \quad \quad C_2H_6O
-$$
+$$\text{Butane} \quad \quad\quad C_4H_{10} \quad \quad \quad \quad ;     \quad \quad \quad \text{Ethanol   }\quad \quad \quad C_2H_6O$$
 
 **Formule développée** : Une formule développée fait apparaître l’ensemble des
 atomes d’une molécule et liaisons covalente qui les relient. Exemple :
 
-<img src="../img/2/develop.png" alt="image" />
+![Formule développée](../img/2/develop.png)
 
 **Formule semi-développée** : La formule semi-développée n’indique pas
 les liaisons avec les atomes d’hydrogène. Les symboles de ces atomes
 sont groupés avec ceux des atomes auxquels ils sont liés. Exemples :
 
-<img src="../img/2/semidev.png" alt="image" />
+![Formule développée](../img/2/semidev.png)
 !!!
 
++++
 $\triangleright \quad$**Exercice .** Considérez la formule brute de
 butane. La formule développée propose ci-dessus, est-elle la seule
 possible ?
++++
 
-</div>
-
-<div class="leftbar">
-
-**Définition : *Isomère***  
+!!!success **Définition : *Isomère***  
 Deux molécules sont des **isomères** si elles ont une **même formule
 brute, mais des enchaînements d’atomes (i.e. formules développées)
 différents**.
 
-</div>
+![Formule développée](../img/2/isomeres.png)
 
-<figure>
-<img src="../img/2/isomeres.png" />
-<figcaption>Différentes représentation d’une même formule
-semi-développée</figcaption>
-</figure>
