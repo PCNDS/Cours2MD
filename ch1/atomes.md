@@ -39,7 +39,7 @@ On a déjà établi que l’échelle atomique (microscopique) a une structure la
 d’un noyau atomique qui est positivement chargé. Mais il fallait attendre jusqu’à 1932, et les résultats de James Chadwick avant de
 découvrir – ou plutôt confirmer - ‘la vraie structure’ du noyau, grâce à sa découverte du neutron.
 
-!!!contrast
+!!!info
 La théorie (ou modèle) atomique actuel dit que :
 
 - L’atome est composé d’**électrons (-)** et d’un **noyau (+)**. La
@@ -93,7 +93,8 @@ le numéro atomique Z :
 <figcaption>représentation symbolique d’un noyau atomique </figcaption>
 </figure>
 
----
+
+==- Exercice d'applicationi
 +++ Enoncé
 $\triangleright \quad$**Exercice 1.**
 
@@ -117,8 +118,7 @@ $\triangleright \quad$**Exercice 3.** Peut-on déterminer le nombre d’électr
 +++ Solution Ex°2
 +++ Solution Exo°3
 +++
----
-
+==-
 
 On a appris (en 3ème) que les atomes sont **électriquement neutres**, sachant que
 les protons et les électrons ont la même charge électrique (mais leurs
@@ -143,6 +143,7 @@ $$
 \text{Nombre d'électrons} = Z - \text{charge d'ion}
 $$
 
+==- Exercice d'application
 +++ Enoncé
 $\triangleright \quad$**Exercice 4.** Est-il possible d’avoir le même
 atome avec un nombre de $Z$ ?  
@@ -153,6 +154,7 @@ différent)?
 +++ Solution N°4
 +++ solution N°5
 +++
+==- 
 
 ## Les isotopes
 
@@ -184,6 +186,7 @@ $$
 m = Z\cdot m_p + ( A - Z ) \cdot m_n \quad \text{où } m_p \text{est la masse du proton} et m_p \text{est la masse du proton}
 $$
 
+==- Exerice d'application
 +++ Enoncé
 $\triangleright \quad$ **Exercice 6.** Calculer la masse approchée de l’atome de fer.  
 $\triangleright \quad$**Exercice 7.** Calculer la masse exacte de
@@ -191,5 +194,4 @@ l’atome de fer.
 +++ Solution N°6
 +++ Solution N°7
 +++
-
-  
+==- Exerice d'application

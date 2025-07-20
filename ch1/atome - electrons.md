@@ -11,7 +11,7 @@ Comme d’habitude, un peu d’histoire. Voici l’évolution du modèle de la
 structure électronique de l’atome :
 
 - **J. J. Thompson et son modèle «
-  Pouding(<span style="color: purple">(= pudding</span>)) »** : 
+  Pouding »** : 
 
   Dans ce
   modèle, l’atome est composé d’électrons (que J.J. Thomson continuait à
@@ -80,13 +80,10 @@ structure électronique de l’atome :
   autour du noyau est de $≥95 \%$. Notre étude concerne ces couches
   électroniques.
 
-<figure>
-<img src="../img/1/atomodels.png" />
-</figure>
+![Modele de l'atome](../img/1/atomodels.png)
 
 ## Répartition des électrons dans un atome
 !!!success **Définition : *Couche électronique***  
-
 On dit que deux électrons apparitennent à une même couche électronique
 
 1.  Ils se trouvent, en moyenne, à une même distance du noyau
@@ -124,7 +121,6 @@ tableau pour montrer le nombre maximal d’électrons dans chaque niveau
 |            3 (M)            |     3s      |             2             |  8  |
 |                             |     3p      |             6             |     |
 
-!!!
 
 !!!warning **Remarque** : 
 (*En fait chaque sous-couche, $s$ ou $p$ par exemple ne peut
@@ -160,6 +156,7 @@ d’électrons des différents atomes.
 - A l’intérieur d’une couche, c’est la sous-couche $s$ qui est d’abord rempli avant de commencer à remplir la sous-couche $p$.
 !!!
 
+!!!light
 **Exemple:** Voilà la configuration électronique de quelques atomes :
 
 - Hydrogène $H$ ($Z=1$) : $1s^1$
@@ -167,11 +164,10 @@ d’électrons des différents atomes.
 - Lithium $Li$ ($Z=3$) : $1s^22s^1$
 
 - Carbone $C$ ($Z=6$) : $1s^22s^22p^2$
-
 !!!
 
-
-!!!light $\triangleright \quad$**Exercice .** 
+==- Exercice d'application
+!!!light $\triangleright \quad$
 
 Configurations électroniques
 Donner la configuration électronique pour les éléments suivants :
@@ -187,7 +183,7 @@ Donner la configuration électronique pour les éléments suivants :
 5.  Atome d’Azote ($N$) $Z=7$ :
 
 6.  Atome de Chlore ($C\ell$) $Z=17$ :
-!!!
+==-
 
 ### Pour ceux qui veulent aller plus loin ... 
 
@@ -248,10 +244,12 @@ Voici quelques exemples :
 <img src="../img/1/tableau2.png" />
 </figure>
 
-!!!light $\triangleright \quad$ **Exercice .** 
+==- Exercice d'application
+$\triangleright \quad$  
 Y a-t-il quelque chose en commun
 entre les différentes formes ioniques ?  
 !!!
+==-
 
 Si l’on considère la configuration électronique, on voit que les formes
 ioniques ont tous une **couche de valence saturée**. On dit que c’est la
@@ -281,7 +279,7 @@ Dans une entité chimique stable, les éléments adoptent la même structure
 !!!
 
 Cela explique pourquoi, par exemple la forme ionique d’oxygène est
-$O^{-2}$, et non $O^{-1}$ : car la première forme donne la même
+$O^{2-}$, et non $O^{-}$ : car la première forme donne la même
 configuration que l’atome de néon $(1s^22s^22p^6)$. A l’exception des
 gaz nobles, les éléments n’existent pas naturellement sous forme
 d’atomes isolés, car sous cette forme ils ne sont pas stables.

@@ -31,7 +31,7 @@ La classification actuelle comporte $18$ colonnes et $7$ lignes qui s’appellen
   chimiques semblables, et donc constitue une famille chimique.
 
 
-!!!contrast **Exemple:** 
+!!!light **Exemple:** 
 L’élément aluminium ($A\ell$ ∶ $Z=13$) se trouve dans la troisième colonne de la troisième période, donc il a $3$ électrons périphériques dans sa troisième couche. Déterminer sa répartition
 électronique.
 !!!
@@ -48,7 +48,7 @@ chimique**.
 - Les éléments dans la $8^{ème}$ ($18^{ème}$) colonne constituent la famille des gaz rares ou les gaz nobles. Ils sont caractérises par une
   couche externe saturée
 
-!!!contrast **Exemple:** 
+!!!light **Exemple:** 
 Les éléments $Li,Na,K,Rb,Cs,Fr$ on un seul électron
 périphérique. Ils réagissent d’une manière similaire et violente avec
 $H_2O$.
@@ -65,3 +65,5 @@ couche externe saturée. Leur placement dans le tableau périodique détermine l
 
 - Les atomes des colonnes 5 à 7 vont gagner des électrons afin d saturer leurs couches externes. Ils forment alors des anions comme :
   $F^-  , S^{2-}   , P^{3-}$.
+
+  [!embed](https://ptable.com/?lang=fr#Propri%C3%A9t%C3%A9s)

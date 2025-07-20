@@ -55,10 +55,9 @@ des électrons entre d’eux, afin de trouver une configuration électronique st
 !!!
 
 
- <img src="../img/2/glucose.png" style="width:3cm" alt="image" />
+ ![](../img/2/glucose.png)
 
 !!!warning **Remarque.**
-
 Cette énergie de liaison est, en effet, l’énergie qui est libérée quand
 on transforme des molécules, notamment dans les réaction exothermique,
 et les réactions ou une *macromolécules* est transformée en des

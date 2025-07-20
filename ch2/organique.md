@@ -18,7 +18,7 @@ Déjà, le nom de la molécule dépend de nombre d’atome de carbone dans la
 chaîne principale (la chaîne la plus longue).
 
 | Nombre de carbon | nom/préfixe |        exemple        | formule semi-développée |
-|:-----------------|:-----------:|:---------------------:|:------------------------|
+|:----------------:|:-----------:|:---------------------:|:------------------------|
 | 1                |    méth-    |    méthane, méthyl    |                         |
 | 2                |    éth-     |     éthane, éthyl     |                         |
 | 3                |    prop-    |    propane, propyl    |                         |
@@ -29,37 +29,26 @@ chaîne principale (la chaîne la plus longue).
 | 8                |    oct-     |     octane, octyl     |                         |
 | 9                |    non-     |        nonane         |                         |
 
-<div class="leftbar">
-
-**Définition : *Groupe caractéristique***  
+!!!success **Définition : *Groupe caractéristique***  
 Un groupe caractéristique est un groupe d’atomes qui donne à la molécule
 des propriétés chimiques particulière.
-
-</div>
+!!!
 
 La liste des groupes caractéristique est assez longue, mais nous allons
 apprendre - cette année au moins - 6 groupes différents qui sont les
 plus importants et les plus répandus en chimie organiques (et les
 médicaments).
 
-<figure>
-<img src="../img/2/groupecar.jpg" />
-<figcaption>Les groupes caractéristiques principaux à
-connaître</figcaption>
-</figure>
+![Les groupes caractéristiques principaux à
+connaître](../img/2/groupecar.jpg)
 
-<figure>
-<img src="../img/2/groupecar2.jpg" />
-</figure>
+==- Exercices Résolus
+![](../img/2/groupecar2.jpg)
 
-<figure>
-<img src="../img/2/xo1.jpg" />
-</figure>
+![](../img/2/xo1.jpg)
 
-<figure>
-<img src="../img/2/xo2.jpg" />
-</figure>
+![](../img/2/xo2.jpg)
 
-<figure>
-<img src="../img/2/xo2a.jpg" />
-</figure>
+![](../img/2/xo2a.jpg)
+
+==-

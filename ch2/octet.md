@@ -31,13 +31,11 @@ ou perdant des électrons, d’où les formes ioniques des différents
 éléments que l’on a rencontré jusqu’à maintenant. Par conséquent on a
 énoncé le principe :
 
-<div class="shaded">
-
+!!!info
 Dans une entité chimique **stable**, les éléments adoptent la même
 structure électronique que celle du gaz noble de numéro atomique le plus
 proche.
-
-</div>
+!!!
 
 Quand on parle là d’une « entité chimique », on considère les formes
 atomiques, comme les ions, ainsi que les molécules qui se forment en
