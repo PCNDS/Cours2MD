@@ -166,7 +166,7 @@ d’électrons des différents atomes.
 - Carbone $C$ ($Z=6$) : $1s^22s^22p^2$
 !!!
 
-==- [!button Exercice d'application]
+==- [!button icon=":notebook:" text="Exercice d'application"]
 !!!light $\triangleright \quad$
 
 Configurations électroniques
@@ -242,7 +242,7 @@ Voici quelques exemples :
 
 ![](../img/1/tableau2.png)
 
-==- [!button Exercice d'application]
+==- [!button icon=":notebook:" text="Exercice d'application"]
 $\triangleright \quad$  
 Y a-t-il quelque chose en commun
 entre les différentes formes ioniques ?  
