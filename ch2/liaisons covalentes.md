@@ -41,7 +41,7 @@ Cyanure d’hydrogène, appelé aussi Acide cyanhydrique
 (toxique pour l’homme, utilisé dans les pesticides et des fumigateurs).
 !!!
 
-![Molécule de cyanure](../img/2/cyan.jpg)
+![Molécule de cyanure](../img/2/cyan.png)
 
 Remarquons le cas du Cyanure d’hydrogène (ainsi que du dioxygène), la
 présence de plusieurs liaisons entre l’atome de carbone, et l’atome
@@ -71,7 +71,7 @@ $CH_4$ ; ammoniac : $NH_3$ ; éthane : $C_2H_6$
 ![](../img/2/egs.jpg)
 !!!
 
-==- Exerice d'application
+==- [!button Exerice d'application]
 +++ Enoncé
 $\triangleright \quad$**Exercice .** Refaire les diagrammes de Lewis a
 partir des diagrammes avec les points représentants les électrons

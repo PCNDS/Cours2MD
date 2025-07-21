@@ -94,7 +94,7 @@ le numéro atomique Z :
 </figure>
 
 
-==- Exercice d'applicationi
+==- [!button Exercice d'application]i
 +++ Enoncé
 $\triangleright \quad$**Exercice 1.**
 
@@ -143,7 +143,7 @@ $$
 \text{Nombre d'électrons} = Z - \text{charge d'ion}
 $$
 
-==- Exercice d'application
+==- [!button Exercice d'application]
 +++ Enoncé
 $\triangleright \quad$**Exercice 4.** Est-il possible d’avoir le même
 atome avec un nombre de $Z$ ?  
@@ -186,7 +186,7 @@ $$
 m = Z\cdot m_p + ( A - Z ) \cdot m_n \quad \text{où } m_p \text{est la masse du proton} et m_p \text{est la masse du proton}
 $$
 
-==- Exerice d'application
+==- [!button Exercice d'application]
 +++ Enoncé
 $\triangleright \quad$ **Exercice 6.** Calculer la masse approchée de l’atome de fer.  
 $\triangleright \quad$**Exercice 7.** Calculer la masse exacte de
@@ -194,4 +194,4 @@ l’atome de fer.
 +++ Solution N°6
 +++ Solution N°7
 +++
-==- Exerice d'application
+==-

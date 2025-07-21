@@ -30,7 +30,7 @@ sont groupés avec ceux des atomes auxquels ils sont liés. Exemples :
 ![Formule développée](../img/2/semidev.png)
 !!!
 
-==- Exerice d'application
+==- [!button Exercice d'application]
 +++
 $\triangleright \quad$**Exercice .** Considérez la formule brute de
 butane. La formule développée propose ci-dessus, est-elle la seule

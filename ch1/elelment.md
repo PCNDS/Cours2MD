@@ -16,7 +16,7 @@ order : 50
   noyau, donc ils sont tous différents aspects du même élément.
 !!!
 
-==- Exercice d'application
+==- [!button Exercice d'application]
 +++ Enonce
 $`\triangleright \quad`$ L’alchimie est une discipline
 dont l’objet est l’étude de la matière et de ses transformations. L’un

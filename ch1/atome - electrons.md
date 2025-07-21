@@ -148,7 +148,7 @@ précédente. Il y a donc une façon particulière pour remplir les
 différents niveaux énergétique d’un atome, pour le nombre croissant
 d’électrons des différents atomes.
 
-!!! ***Règles de remplissages de couches électroniques : ***
+!!! ***Règles de remplissages de couches électroniques***
 - Il faut toujours commencer par le niveau énergétique le plus bas possible qui a de la place pour accueillir des électrons.
 - Les électrons remplissent les couches d’une manière progressive;
   c’est-à-dire les électrons se placent d’abord dans la couche $1 - K$ ; puis, lorsque celle-ci est saturée(<span style="color: purple">(=
@@ -166,7 +166,7 @@ d’électrons des différents atomes.
 - Carbone $C$ ($Z=6$) : $1s^22s^22p^2$
 !!!
 
-==- Exercice d'application
+==- [!button Exercice d'application]
 !!!light $\triangleright \quad$
 
 Configurations électroniques
@@ -215,7 +215,7 @@ caractérisé par 4 *nombres quantiques* :
 - **Nombre magnétique de Spin** $m_S$ (<span style="color: purple">(=
   spin quantum number</span>)) : correspond au "sens de rotation" de
   l’électron. Il n’y a que deux possibilités pour le "spin" d’un
-  électrons : $m_s = -\nicefrac{1}{2}, \nicefrac{1}{2}$. On peut
+  électrons : $m_s = -\dfrac{1}{2}, \dfrac{1}{2}$. On peut
   l’imaginer (par analogie) au sens de rotation d’un tire-bouchon et le
   sens opposé. Ceci explique aussi la limite de $2$ électrons par type
   de sous-couche.
@@ -240,11 +240,9 @@ résumé :
 
 Voici quelques exemples :
 
-<figure>
-<img src="../img/1/tableau2.png" />
-</figure>
+![](../img/1/tableau2.png)
 
-==- Exercice d'application
+==- [!button Exercice d'application]
 $\triangleright \quad$  
 Y a-t-il quelque chose en commun
 entre les différentes formes ioniques ?  
