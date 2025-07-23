@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.806601277258">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>La couche &#233;lectronique</title>
+    <meta name="title" content="La couche électronique">
+    <meta name="description" content="Comme d’habitude, un peu d’histoire. Voici l’évolution du modèle de la structure électronique de l’atome :">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://docs.example.com/ch1/atome-electrons/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://docs.example.com/ch1/atome-electrons/">
+    <meta property="og:title" content="La couche électronique">
+    <meta property="og:description" content="Comme d’habitude, un peu d’histoire. Voici l’évolution du modèle de la structure électronique de l’atome :">
+    <meta property="og:image" content="https://docs.example.com/img/1/atomodels.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://docs.example.com/ch1/atome-electrons/">
+    <meta property="twitter:title" content="La couche électronique">
+    <meta property="twitter:description" content="Comme d’habitude, un peu d’histoire. Voici l’évolution du modèle de la structure électronique de l’atome :">
+    <meta property="twitter:image" content="https://docs.example.com/img/1/atomodels.png">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../resources/css/retype.css?v=3.11.0.806601277258" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.806601277258" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.806601277258" data-turbo-eval="false" defer></script>
+    <link href="../../resources/css/katex.css?v=3.11.0" rel="stylesheet">
+    <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.11.0" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Cours de Physique - 2nde général</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Physique!</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Home</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Home</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="les-électrons" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#les-électrons">#</doc-anchor-trigger>
+        <span>Les électrons</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="un-peu-dhistoire">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#un-peu-dhistoire">#</doc-anchor-trigger>
+        <span>Un peu d’histoire</span>
+    </h2>
+</doc-anchor-target>
+<p>Comme d’habitude, un peu d’histoire. Voici l’évolution du modèle de la
+structure électronique de l’atome :</p>
+<ul>
+<li><p><strong>J. J. Thompson et son modèle «
+Pouding »</strong> :</p>
+<p>Dans ce
+modèle, l’atome est composé d’électrons (que J.J. Thomson continuait à
+appeler« corpuscules », bien que George Stoney eut proposé la
+dénomination d’ électrons en 1894), plongés dans une « soupe » de
+charges positives pour équilibrer la charge négative des électrons,
+comme des prunes (plum en anglais) dans un pudding. Les électrons
+(comme nous les connaissons aujourd’hui) étaient considérés comme
+dispersés au sein de l’atome, mais avec de multiples structures
+possibles pour leurs positionnements, comme en particulier des anneaux
+tournants d’électrons. L’atome était parfois considéré comme ayant un
+nuage de charge positive plutôt qu’une soupe.</p>
+</li>
+<li><strong>Earnest Rutherford et son modèle « Planétaire » :</strong></li>
+<li></li>
+<li>l’atome est
+constitué d’un noyau positif autour duquel tournent des électrons
+négatifs. Entre le noyau - très petit par rapport à l’atome (environ
+<span class="math">100 000</span> fois) - et ses électrons, un très grand vide existe. Ce
+modèle fut très vite mis en défaut par les équations de Maxwell d’une
+part, qui prédisent que toute charge accélérée rayonne de l’énergie,
+et par les expériences montrant la quantification des niveaux
+d’énergie d’autre part. <strong>Problème</strong> : c’est un modèle basé sur la
+mécanique classique, et selon ses calculs les électrons seront captés
+immédiatement par le noyau, et l’atome n’aura aucune cohésion.</li>
+<li><p><strong>Niels Bohr et son modèle « Bohr-ring » :</strong> Le premier modèle «
+quantique ».</p>
+<p>Niels Bohr propose d’ajouter quelques contraintes :</p>
+<ul>
+<li><p>L’électron ne rayonne aucune énergie lorsqu’il se trouve sur une
+orbite stable (ou orbite stationnaire). Ces orbites stables sont
+différenciées, quantifiées. Ce sont les seules orbites sur
+lesquelles l’ électron peut tourner.</p>
+</li>
+<li><p>L’électron ne rayonne ou n’absorbe de l’énergie que lors d’un
+changement d’orbite</p>
+</li>
+<li><p>Pour commodité de lecture, les orbites possibles de l’électron sont
+représentées dans la littérature comme des cercles de diamètres
+<em>quantifiés</em>.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Erwin Schrödinger et sa « fonction d’onde(=wave function) » :</strong></p>
+<p>Dans ce modèle, les électrons ne sont plus des billes localisées en
+orbite, mais des <em>nuages de probabilité de présence</em>. Cependant la
+représentation que l’on pouvait se faire d’un électron — une petite
+bille ? — était dictée par les formes observées dans le monde
+macroscopique, transposées sans preuves dans le monde <em>microscopique</em>.</p>
+<figure>
+<img src="../img/1/quantique.jpg" />
+<figcaption>Image simplifiée de l’arrachement d’un électron du nuage
+électronique dans le modèle de Schrödinger. La notion de « trajectoire »
+n’est plus valable</figcaption>
+</figure>
+<p>Ainsi dans ce modèle, contrairement à l’ancien modèle planétaire de
+l’atome, on ne considère plus que les électrons d’un atome sont en
+orbite circulaire (ou même elliptique) autour du noyau, mais occupent
+de manière probabiliste certaines régions de l’espace autour du noyau.
+Ces régions s’appelle les orbitales atomiques qui occupent différentes
+couches électroniques autour du noyau. On définit alors comme orbitale
+atomique une zone de l’espace où la probabilité de trouver un électron
+autour du noyau est de <span class="math">≥95 \%</span>. Notre étude concerne ces couches
+électroniques.</p>
+</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../img/1/atomodels.png" alt="Modele de l'atome" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Modele de l'atome</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="répartition-des-électrons-dans-un-atome">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#répartition-des-électrons-dans-un-atome">#</doc-anchor-trigger>
+        <span>Répartition des électrons dans un atome</span>
+    </h2>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5><strong>Définition : <em>Couche électronique</em></strong></h5>
+<p>On dit que deux électrons apparitennent à une même couche électronique</p>
+<ol>
+<li><p>Ils se trouvent, en moyenne, à une même distance du noyau</p>
+</li>
+<li><p>Ou encore, ils sont également liés au noyau.</p>
+</li>
+</ol>
+        </div>
+    </div>
+</div>
+<p>Pour les éléments avec <span class="math">1 \leq Z \leq 18</span> on représente chaque couche
+électronique par une lettre : <span class="math">K</span>, <span class="math">L</span>, <span class="math">M</span> ; la couche <span class="math">K</span>
+étant la plus proche du noyau, et ainsi de suite.</p>
+<p>Avec une meilleure compréhension de la structure des atomes, grâce à la
+théorie quantique nous savons maintenant à l’<strong>intérieur de ces couche
+électronique</strong>, il y a ce que nous appelons des <em><strong>sous-couches</strong></em>
+électronique. C’est comme dans chaque niveau énergétique ou se situent
+les électrons il y a avait des sous-niveaux.</p>
+<p>Comme pour les couches électronique il y a <strong>nombre maximal d’électron
+possible</strong> dans chaque sous-couche. Les sous-couches s’appellent :
+<strong><span class="math">s</span></strong> et <strong><span class="math">p</span></strong> (et pour les atomes au-delà de <span class="math">Z=18</span> il y a
+aussi une sous-couche <span class="math">d</span>, mais cela ne nous concerne pas). Dans le
+premier niveau il n’y a qu’une seule sous-couche possible, une
+sous-couche <strong><span class="math">s</span></strong>. A partir du deuxième niveau il y a d’abord une
+sous-couche <strong><span class="math">s</span></strong> et puis une sous-couche <strong><span class="math">p</span></strong>. Voici un
+tableau pour montrer le nombre maximal d’électrons dans chaque niveau
+énergétique d’un atome :</p>
+<div class="center">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;">Couche (niveau énergétique)</th>
+<th style="text-align: center;">Sous-couche</th>
+<th style="text-align: center;">nombre maximal d’électron</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1 (K)</td>
+<td style="text-align: center;">1s</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">2 (L)</td>
+<td style="text-align: center;">2s</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2p</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">3 (M)</td>
+<td style="text-align: center;">3s</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">3p</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5><strong>Remarque</strong> :</h5>
+<p>(<em>En fait chaque sous-couche, <span class="math">s</span> ou <span class="math">p</span> par exemple ne peut
+contenir que 2 électrons, mais dans chaque niveau énergétique il y un
+seul type de <span class="math">s</span> et trois types de sous-couches <span class="math">p</span>, d’où le nombre
+maximal de <span class="math">2</span> et <span class="math">6</span> respectifs pour les deux types de
+sous-couches.</em></p>
+        </div>
+    </div>
+</div>
+<p>En chimie, les électrons les plus importants, ceux qui déterminent la
+construction des édifices chimiques, sont les <strong>électrons périphériques,
+ou électrons de valence</strong>(<span style="color: purple">(= valence
+electrons</span>)), qui appartiennent à la couche externe (appelée
+souvent la couche de valence(<span style="color: purple">(= valence
+shell</span>)) de l’atome.</p>
+<doc-anchor-target id="les-règles-de-remplissage-des-couches-électroniques">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#les-règles-de-remplissage-des-couches-électroniques">#</doc-anchor-trigger>
+        <span>Les règles de remplissage des couches électroniques</span>
+    </h2>
+</doc-anchor-target>
+<p>En 1923, Wolfgang Pauli propose un principe (son fameux principe
+d’exclusion) selon lequel les électrons ne peuvent pas se trouver au
+même endroit dans le même état quantique(<span style="color: purple">(=
+quantum state</span>)) . Chaque couche (et sous-couche) électronique ne
+peut contenir qu’un nombre limité d’électrons - comme vu dans la partie
+précédente. Il y a donc une façon particulière pour remplir les
+différents niveaux énergétique d’un atome, pour le nombre croissant
+d’électrons des différents atomes.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5><em><strong>Règles de remplissages de couches électroniques</strong></em></h5>
+<ul>
+<li>Il faut toujours commencer par le niveau énergétique le plus bas possible qui a de la place pour accueillir des électrons.</li>
+<li>Les électrons remplissent les couches d’une manière progressive;c’est-à-dire les électrons se placent d’abord dans la couche <span class="math">1 - K</span> ; puis, lorsque celle-ci est saturée(<span style="color: purple">(=saturated</span>)) (atteint le nombre maximal permit) les électrons commence le remplissage de la couche <span class="math">2 - L</span>, et ainsi de suite.</li>
+<li>A l’intérieur d’une couche, c’est la sous-couche <span class="math">s</span> qui est d’abord rempli avant de commencer à remplir la sous-couche <span class="math">p</span>.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-light"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-light" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p><strong>Exemple:</strong> Voilà la configuration électronique de quelques atomes :</p>
+<ul>
+<li><p>Hydrogène <span class="math">H</span> (<span class="math">Z=1</span>) : <span class="math">1s^1</span></p>
+</li>
+<li><p>Lithium <span class="math">Li</span> (<span class="math">Z=3</span>) : <span class="math">1s^22s^1</span></p>
+</li>
+<li><p>Carbone <span class="math">C</span> (<span class="math">Z=6</span>) : <span class="math">1s^22s^22p^2</span></p>
+</li>
+</ul>
+        </div>
+    </div>
+</div>
+<doc-panel id="button-icon-textexercice-dapplication" collapsed>
+    <template #title><button class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span class="docs-emoji mr-2">&#x1F4D3;</span>
+    <span>Exercice d&#x27;application</span>
+</button></template>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-light"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-light" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5><span class="math">\triangleright \quad</span></h5>
+<p>Configurations électroniques
+Donner la configuration électronique pour les éléments suivants :</p>
+<ol>
+<li><p>Atome de Soufre (<span class="math">S</span>) <span class="math">Z=16</span> :</p>
+</li>
+<li><p><em>ion</em> de Soufre (<span class="math">S^{-2}</span>) :</p>
+</li>
+<li><p>Atome de Sodium (<span class="math">Na</span>) <span class="math">Z=11</span> :</p>
+</li>
+<li><p><em>ion</em> de Sodium (<span class="math">Na^+</span>) :</p>
+</li>
+<li><p>Atome d’Azote (<span class="math">N</span>) <span class="math">Z=7</span> :</p>
+</li>
+<li><p>Atome de Chlore (<span class="math">C\ell</span>) <span class="math">Z=17</span> :</p>
+</li>
+</ol>
+        </div>
+    </div>
+</div>
+</doc-panel>
+<doc-anchor-target id="pour-ceux-qui-veulent-aller-plus-loin-">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pour-ceux-qui-veulent-aller-plus-loin-">#</doc-anchor-trigger>
+        <span>Pour ceux qui veulent aller plus loin ...</span>
+    </h3>
+</doc-anchor-target>
+<p>En fait, d’après la théorie quantique chaque électron dans un atome est
+caractérisé par 4 <em>nombres quantiques</em> :</p>
+<ul>
+<li><p><strong>Nombre principal</strong> <span class="math">n</span> (<span style="color: purple">(= principal
+quantum number</span>)) : ce nombre correspond au <em>niveau énergétique</em>
+de l’électron dans l’atome. Les valeurs de <span class="math">n</span> est un entièes et
+strictement positives, c’est à dire : <span class="math">n = 1, 2, 3, \ldots</span> Un
+électron au deuxième niveau aurait un nombre <span class="math">n=2</span>.</p>
+</li>
+<li><p><strong>Nombre azimutal</strong> <span class="math">\ell</span> (<span style="color: purple">(= angular
+quantum number</span>)): ce nombre correspond au sous-couche dans
+laquelle se trouve l’électron. Les valeur de <span class="math">\ell</span> sont entiers
+positifs, c’est à dire : <span class="math">\ell = 0, 1, 2, \ldots, n-1</span>. Les
+sous-couches <span class="math">s, p, \text{et }d</span> correspondent a <span class="math">\ell=0, 1, 2</span>.</p>
+</li>
+<li><p><strong>Nombre magnétique</strong> <span class="math">m_\ell</span> (<span style="color: purple">(=
+mangetic quantum number</span>)) : ce nombre correspond à
+&quot;l’orientation&quot; de la sous-couche concercée en trois dimension. Le
+nombre <span class="math">m_\ell</span> dépend du type de sous-couche, et prend des valeurs
+entières comprises entre <span class="math">-\ell \ldots \ell</span>. La sous-couche <span class="math">s</span>
+avec <span class="math">\ell = 0</span> n’a que <span class="math">m_\ell = 0</span> possible. La sous-couche
+<span class="math">p</span> avec <span class="math">\ell = 1</span> a trois orientations possibles :
+<span class="math">m_\ell = -1, 0, 1</span> d’où la limite de <span class="math">6</span> électrons max dans une
+sous-couche <span class="math">p</span>.</p>
+</li>
+<li><p><strong>Nombre magnétique de Spin</strong> <span class="math">m_S</span> (<span style="color: purple">(=
+spin quantum number</span>)) : correspond au &quot;sens de rotation&quot; de
+l’électron. Il n’y a que deux possibilités pour le &quot;spin&quot; d’un
+électrons : <span class="math">m_s = -\dfrac{1}{2}, \dfrac{1}{2}</span>. On peut
+l’imaginer (par analogie) au sens de rotation d’un tire-bouchon et le
+sens opposé. Ceci explique aussi la limite de <span class="math">2</span> électrons par type
+de sous-couche.</p>
+</li>
+</ul>
+<doc-anchor-target id="les-électrons-et-la-stabilité-dans-un-atome">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#les-électrons-et-la-stabilité-dans-un-atome">#</doc-anchor-trigger>
+        <span>Les électrons et la stabilité dans un atome</span>
+    </h2>
+</doc-anchor-target>
+<p>On a déjà rencontré la notion d’ion (en <span class="math">3^{ème}</span>). Voici un petit
+résumé :</p>
+<ol>
+<li><p>Les atomes sont, a priori, <strong>électriquement neutres</strong>, et donc ont
+le même nombre d’électrons et de protons. Mais ils peuvent
+<strong>perdre</strong> ou <strong>gagner</strong> des électrons, et par conséquent obtenir
+une charge électrique non-nulle.</p>
+</li>
+<li><p>La forme chargée d’un atome s’appelle un <strong>Ion</strong>. Les ions positifs
+s’appellent <strong>cations</strong>, et les ions négatifs s’appellent
+<strong>anions</strong>.</p>
+</li>
+<li><p>Un cation est <strong>déficitaire</strong> en électrons (d’où la charge
+positive), alors qu’un anion est <strong>excédentaire</strong> en électrons (d’où
+la charge négative).</p>
+</li>
+</ol>
+<p>Voici quelques exemples :</p>
+<p><figure class="content-center">
+    <img src="../../img/1/tableau2.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-panel id="button-icon-textexercice-dapplication" collapsed>
+    <template #title><button class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span class="docs-emoji mr-2">&#x1F4D3;</span>
+    <span>Exercice d&#x27;application</span>
+</button></template>
+<p><span class="math">\triangleright \quad</span><br />
+Y a-t-il quelque chose en commun
+entre les différentes formes ioniques ?</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+        </div>
+    </div>
+</div>
+</doc-panel>
+<p>Si l’on considère la configuration électronique, on voit que les formes
+ioniques ont tous une <strong>couche de valence saturée</strong>. On dit que c’est la
+configuration <strong>la plus stable</strong>.</p>
+<p>De plus, on constate que les formes ioniques (stables) correspondent
+exactement à la configuration électronique de certains éléments (<span class="math">Z=2</span>
+;<span class="math">Z=10</span> ;<span class="math">Z=18</span>).</p>
+<p>En fait, les trois gaz (Hélium, Néon, et Argon) font partie d’une
+catégorie des éléments qui s’appellent les <strong>Gaz Nobles</strong>, (ou souvent
+les Gaz Rares). On dit qu’ils sont chimiquement <strong>inertes</strong>, ou stable,
+car ils ne participent que rarement à des réactions chimiques. Ils
+existent naturellement sous forme d’<strong>atomes isolés</strong> et on ne les
+rencontre ni sous la forme d’un ion ni dans des molécules. (Afin de
+comprendre cette notion de stabilité il faut comprendre que les atomes «
+<strong>cherchent</strong> » l’état le plus stable. Une espèce chimique qui est déjà
+stable, n’a donc pas besoin de participer dans les réactions chimiques).
+En chimie, le « <strong>bonheur</strong> » pour un atome est d’avoir la couche
+externe saturée, et donc la recherche du « bonheur » les amène vers les
+réactions chimiques qui produisent une configuration électronique comme
+celle des gaz nobles :</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Dans une entité chimique stable, les éléments adoptent la même structure
+électronique que celle du gaz noble de numéro atomique le plus proche.</p>
+        </div>
+    </div>
+</div>
+<p>Cela explique pourquoi, par exemple la forme ionique d’oxygène est
+<span class="math">O^{2-}</span>, et non <span class="math">O^{-}</span> : car la première forme donne la même
+configuration que l’atome de néon <span class="math">(1s^22s^22p^6)</span>. A l’exception des
+gaz nobles, les éléments n’existent pas naturellement sous forme
+d’atomes isolés, car sous cette forme ils ne sont pas stables.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../ch1/elelment/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">L'élément chimique</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../ch1/atome-tableeau/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Le Tableau périodique</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright S Zayyani 2025. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "La couche électronique", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: true, tocDepth: 23 }</script>
+</body>
+</html>

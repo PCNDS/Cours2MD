@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.806601277258">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Voir un objet</title>
+    <meta name="title" content="Voir un objet">
+    <meta name="description" content="Pour que l’on puisse voir un objet, il faut réunir certaines conditions, notamment que l’œil «détecte» la présence de l’objet.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://docs.example.com/ch10-lumiere/optique/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://docs.example.com/ch10-lumiere/optique/">
+    <meta property="og:title" content="Voir un objet">
+    <meta property="og:description" content="Pour que l’on puisse voir un objet, il faut réunir certaines conditions, notamment que l’œil «détecte» la présence de l’objet.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://docs.example.com/ch10-lumiere/optique/">
+    <meta property="twitter:title" content="Voir un objet">
+    <meta property="twitter:description" content="Pour que l’on puisse voir un objet, il faut réunir certaines conditions, notamment que l’œil «détecte» la présence de l’objet.">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../resources/css/retype.css?v=3.11.0.806601277258" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.806601277258" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.806601277258" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.806601277258" defer></script>
+    <link href="../../resources/css/katex.css?v=3.11.0" rel="stylesheet">
+    <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.11.0" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Cours de Physique - 2nde général</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Physique!</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Home</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Home</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="voir-un-objet" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#voir-un-objet">#</doc-anchor-trigger>
+        <span>Voir un objet</span>
+    </h1>
+</doc-anchor-target>
+<p>Pour que l’on puisse voir un objet, il faut réunir certaines conditions,
+notamment que l’œil «détecte» la présence de l’objet.</p>
+<p>Ceci entraîne l’arrivée de la lumière provenant de l’objet dans l’œil.
+Il faut donc, dans un premier temps, que l’objet émette de la lumière.
+Cette lumière pourrait être produite par l’objet, et dans ce cas-là
+l’objet est une <strong>source primaire de lumière</strong> (objet lumineux) ; ou la
+lumière pourrait être diffusée par l’objet, et dans ce cas l’objet est
+une <strong>source secondaire</strong> de lumière (objet éclairé).</p>
+<p>Mais dans un deuxième temps, il faut des conditions propices au passage
+de la lumière de l’objet vers l’œil humain, c’est-à-dire des conditions
+nécessaires pour la propagation de la lumière.</p>
+<p>Une source lumineuse ponctuelle émet de la lumière dans tous les sens.
+L’ensemble des rayons lumineux qui pénètrent dans l’œil forment un
+<strong>faisceau lumineux</strong>. Quand la source lumineuse s’éloigne, l’angle du
+faisceau lumineux se rapproche de 0. Pour un objet situé très loin, on
+dit qu’il se situe « à l’infini », et les rayons pénétrant l’œil sont
+considérés comme <strong>parallèles</strong>.</p>
+<doc-anchor-target id="lentilles">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lentilles">#</doc-anchor-trigger>
+        <span>Lentilles</span>
+    </h1>
+</doc-anchor-target>
+<p>De manière générale une lentille <span style="color: purple">(=
+lens</span>) est un système optique qui sert à dévier et à déformer un
+faisceau<span style="color: purple">(= beam</span>) de lumière. La
+lentille la plus simple est un objet transparent avec une surface
+courbée. Elles le fait grâce à la réfraction du faisceau lumineux
+pendant l’entrée (et souvent la sortie) du faisceau dans le système
+optique. Comme nous allons voir par la suite, il y a différentes
+catégories de lentilles. Celles qui nous intéressent et que l’on va
+étudier sont des lentilles minces.</p>
+<doc-anchor-target id="lentilles-minces">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lentilles-minces">#</doc-anchor-trigger>
+        <span>Lentilles minces</span>
+    </h2>
+</doc-anchor-target>
+<div class="leftbar">
+<p><strong>Définition : <em>Lentilles minces</em></strong></p>
+<ul>
+<li><p>Une lentille mince est une lentille dont l’épaisseur reste faible
+devant les rayons de courbure de ses faces.</p>
+</li>
+<li><p>Il existe deux catégories de lentilles, des lentilles convergentes :</p>
+<ul>
+<li><p>Les lentilles <strong>convergentes</strong> sont plus épaisses au centre qu’au
+bord. Elles font converger le faisceau lumineux qui les traverse
+(cf. 1, 2, 3 dans la figure
+<a href="#fig:lentillemince" data-reference-type="ref"
+data-reference="fig:lentillemince">1</a>.)</p>
+</li>
+<li><p>Les lentilles <strong>divergentes</strong> sont plus épaisses au bord qu’au
+centre. Elles font diverger le faisceau lumineux qui les traverse
+(cf. 3, 4, 5 dans la figure
+<a href="#fig:lentillemince" data-reference-type="ref"
+data-reference="fig:lentillemince">1</a>).</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<figure id="fig:lentillemince">
+<img src="../img/12/lentillesminces.png" style="width:70.0%" />
+<figcaption>exemples de lentilles minces</figcaption>
+</figure>
+<doc-anchor-target id="caractérisation-dune-système-optique">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#caractérisation-dune-système-optique">#</doc-anchor-trigger>
+        <span>Caractérisation d’une système optique</span>
+    </h2>
+</doc-anchor-target>
+<figure id="fig:système optique">
+<figcaption>Un système optique</figcaption>
+</figure>
+<p>Les lentilles minces sont caractérisées par :</p>
+<ul>
+<li><p><strong>Centre optique (O) :</strong> le point particulier où un rayon incident
+n’est pas dévié.</p>
+</li>
+<li><p><strong>Foyer image (<span class="math">`F’`</span>) <span style="color: purple">(= focal
+point</span>):</strong> le point de convergence des rayons lumineux arrivant
+de l’infini (i.e. parallèles).</p>
+</li>
+<li><p><strong>Plan focal image <span style="color: purple">(= focal
+plane</span>):</strong> on appelle plan focal image le plan perpendiculaire à
+l’axe optique passant par le foyer image <span class="math">`F'`</span>.</p>
+</li>
+<li><p><strong>Foyer objet (<span class="math">`F`</span>) :</strong> le point dont l’image se trouve à l’infini
+après avoir traversé la lentille. Il est situé à la même distance que
+le foyer image, par rapport au centre optique, mais de l’autre côté de
+la lentille.</p>
+</li>
+<li><p><strong>Plan focal objet :</strong> on appelle plan focal objet le plan
+perpendiculaire à l’axe optique passant par le foyer objet <span class="math">`F`</span>.</p>
+</li>
+<li><p><strong>Distance focale (<span class="math">`f’`</span>) <span style="color: purple">(= focal
+length</span>):</strong> la distance entre le foyer image et le centre
+optique. (<span class="math">`\overline{OF'}=f'`</span>) et (<span class="math">`\overline{OF}=f`</span>).</p>
+</li>
+<li><p><strong>Vergence (C) :</strong> Inverse de la distance focale. <span class="math">`C=\dfrac{1}{f'}`</span>
+. La vergence s’exprime en « <em>dioptries</em> » dont le symbole est
+<span class="math">`\delta`</span> (quand <span class="math">`f'`</span> est exprimé en <em>mètres</em>).</p>
+</li>
+</ul>
+<div class="shaded">
+<p><strong>Remarque :</strong> <em>la barre sur <span class="math">`OF`</span> signifie une <em>grandeur orientée</em>.
+C’est à dire <span class="math">`\overline{OF'}=f'=-\overline{OF}=-f`</span> et <span class="math">`OF'=OF`</span>.</em></p>
+</div>
+<div class="shaded">
+<p><span class="math">`\triangleright \quad`</span><strong>Exercice .</strong> Déterminer la vergence d’une
+lentille <span class="math">`f' = 1,5\; m ?`</span></p>
+<p>D’une lentille de <span class="math">`f'= 20 \; mm`</span>?</p>
+</div>
+<doc-anchor-target id="construire-limage-dun-objet">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#construire-limage-dun-objet">#</doc-anchor-trigger>
+        <span>Construire l’image d’un objet</span>
+    </h1>
+</doc-anchor-target>
+<p>Mettons en place maintenant les règles pour la construction graphique de
+l’image d’un objet donnée par une lentille mince. En général si on prend
+un point B sur l’objet, on peut trouver son image en suivant les règles
+suivantes :</p>
+<ul>
+<li><p><span style="color: blue">Un rayon lumineux passant par <span class="math">`O`</span> n’est
+jamais dévié</span>.</p>
+</li>
+<li><p><span style="color: red">Un rayon arrivant, qui est parallèle à l’axe
+optique, émerge en passant par le foyer image <span class="math">`F'`</span>.</span></p>
+</li>
+<li></li>
+</ul>
+<figure id="fig:rayonsconvergent">
+<img src="../img/12/rayons.jpg" />
+<figcaption>Comportement des rayons à travers une lentille
+convergente.</figcaption>
+</figure>
+<p>Les lentilles minces <strong>convergente</strong> et <strong>divergente</strong> sont identiques
+avec la seule différence étant l’inversion des foyers objets et image:
+dans une lentille convergente le foyer image se situe après le centre
+optique, tandis que pour une lentille divergente le foyer image se situe
+avant le centre optique (cf.
+<a href="#fig:convergediverge" data-reference-type="ref"
+data-reference="fig:convergediverge">4</a> )</p>
+<figure id="fig:convergediverge">
+<figure>
+<img src="../img/12/convergente.jpg" />
+</figure>
+<figure>
+<img src="../img/12/divergente.jpg" />
+</figure>
+<figcaption>Lentille convergente à gauche &amp; lentille divergente à
+droite.</figcaption>
+</figure>
+<p>Nous représentons normalement un objet par une <strong>flèche verticale</strong>
+(<span class="math">`AB`</span>), perpendiculaire à l’axe optique. <strong>En traçant au moins deux de
+ces trois rayons</strong>, le point <span class="math">`B’`</span> (image du point <span class="math">`B`</span>) est situé à
+l’intersection des rayons émergents, comme détaillé dans les figures
+suivantes :</p>
+<figure>
+<figure>
+<img src="../img/12/construct1.jpg" />
+</figure>
+<figure>
+<img src="../img/12/constrcut2.jpg" />
+</figure>
+<figure>
+<img src="../img/12/constrct3.jpg" />
+</figure>
+<figure>
+<img src="../img/12/constrct4.jpg" />
+</figure>
+<figure>
+<img src="../img/12/constrct5.jpg" />
+</figure>
+<figcaption>Les étapes de la construction d’une image à travers une
+lentille convergente.</figcaption>
+</figure>
+<div class="shaded">
+<p><strong>Exemple:</strong></p>
+<div class="center">
+<img src="../img/12/imageconstruct.jpg" alt="image" />
+</div>
+</div>
+<div class="mdframed">
+<p><strong>Remarque.</strong> <em>Construction d’image pour une lentille divergente</em></p>
+<div class="center">
+<img src="../img/12/diverge.jpg" style="width:60.0%" alt="image" />
+</div>
+</div>
+<doc-anchor-target id="caractérisation-dune-image-formée">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#caractérisation-dune-image-formée">#</doc-anchor-trigger>
+        <span>Caractérisation d’une image formée</span>
+    </h2>
+</doc-anchor-target>
+<p>L’<strong>image qui se forme</strong>, à travers un système optique, peut être soit
+<strong>réelle</strong>, soit <strong>virtuelle</strong>.</p>
+<div class="leftbar">
+<p><strong>Définition : <em>Images et objets réels &amp; virtuels</em></strong></p>
+<ul>
+<li><p>Si l’<strong>image</strong> se forme du côté « image », c’est-à-dire « <strong>après</strong> »
+la lentille, elle est appelée <strong>réelle</strong>.</p>
+</li>
+<li><p>Si l’<strong>image</strong> se forme du côté « objet », c’est-à-dire « <strong>avant</strong> »
+la lentille, elle est appelée <strong>virtuelle</strong>.</p>
+</li>
+<li><p>Si l’<strong>objet</strong> est situé du côté « objet », c’est-à-dire « avant » la
+lentille, il est <strong>réel</strong>.</p>
+</li>
+<li><p>Si l’<strong>objet</strong> est situé du côté « image », c’est-à-dire « après » la
+lentille, il est <strong>virtuel</strong>.</p>
+</li>
+</ul>
+<p>Les sens avant et après sont entendus par rapport au sens de propagation
+de la lumière, comme mentionné précédemment.</p>
+</div>
+<div class="shaded">
+<p><strong>Exemple:</strong></p>
+<div class="center">
+<img src="../img/12/imagesvirtuelle.jpg" style="width:60.0%" alt="image" />
+</div>
+</div>
+<p>Faisons quelques applications de ces règle afin de mieux les intégrer.</p>
+<div class="shaded">
+<p><span class="math">`\triangleright \quad`</span><strong>Exercice .</strong> Considérer une lentille mince
+convergente avec <span class="math">`f'=2\; cm`</span>. Tracer sur une feuille de papier
+millimétré l’image d’un objet <span class="math">`AB = 3\; cm`</span> situé aux positions
+suivantes :</p>
+<ol>
+<li><p><span class="math">`AO= \infty`</span></p>
+</li>
+<li><p><span class="math">`AO &gt; 2f`</span></p>
+</li>
+<li><p><span class="math">`AO = 2f`</span></p>
+</li>
+<li><p><span class="math">`2f &gt; AO &gt; f`</span></p>
+</li>
+<li><p><span class="math">`AO = f`</span></p>
+</li>
+<li><p><span class="math">`f &gt; AO`</span></p>
+</li>
+</ol>
+</div>
+<div class="mdframed">
+<p><strong>Remarque.</strong> *Il existe une équation, nommé <em>la relation de
+conjugaison</em>, qui permet d’établir un relation mathématique entre la
+distance objet-centre optique <span class="math">`\overline{AO}`</span>, la distance centre
+optique-image <span class="math">`\overline{OA'}`</span>, et la distance focale de la lentille
+<span class="math">`f'`</span>. Voici la relation de conjugaison :</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">\dfrac{1}{\overline{OA'}} - \dfrac{1}{\overline{OA}} = \dfrac{1}{\overline{f'}}</code></pre>
+</doc-codeblock></div>
+<p>Vous pouvez vous servir de cette relation pour vérifier les images
+construites graphiquement.*</p>
+</div>
+<doc-anchor-target id="grandissement">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#grandissement">#</doc-anchor-trigger>
+        <span>Grandissement</span>
+    </h1>
+</doc-anchor-target>
+<div class="leftbar">
+<p><strong>Définition : <em>Grandissement<span style="color: purple">(=
+Magnification</span>)</em></strong></p>
+<ul>
+<li><p>Le grandissement est le rapport entre la taille de l’image et l’objet.</p>
+</li>
+<li><p>Il est utilisé afin de caractériser le changement de taille effectué
+par le système optique.</p>
+</li>
+<li><p>Le grandissement est noté avec le symbole <span class="math">`\gamma`</span> (gamma).</p>
+</li>
+<li><p>C’est une grandeur sans unité.</p>
+</li>
+<li><p>Le grandissement est déterminé grâce à l’exprssion :</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">\gamma = \dfrac{\overline{A'B'}}{\overline{AB}} = \dfrac{\overline{OA'}}{\overline{OA}}</code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+</div>
+<div class="shaded">
+<p><strong>Exemple:</strong></p>
+<div class="center">
+<img src="../img/12/exemple.jpg" style="width:80.0%" alt="image" />
+</div>
+<p>D’abord nous construisons l’image de <span class="math">`AB`</span> selon les règles que nous
+avons déjà vues.</p>
+<p>En suite afin de déterminer le grandissement il faut mesurer la taille
+de <span class="math">`AB`</span> ainsi que celle de <span class="math">`A'B'`</span>, et puis calculer leur rapport.</p>
+<p>D’après l’échelle établie par le graphe <span class="math">`\overline{A'B'} = -2,0 \; cm`</span>
+et <span class="math">`\overline{AB} = 1,0 \; cm`</span>.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">\begin{aligned}
+    \gamma &amp;=  \dfrac{\overline{A'B'}}{\overline{AB}} \\ &amp;= \dfrac{-2,0}{1,0} \\ &amp;= -2,0 
+\end{aligned}</code></pre>
+</doc-codeblock></div>
+</div>
+<p>Faisons donc quelques remarques d’après les résultats précédents :</p>
+<ul>
+<li><p>les grandeurs <span class="math">`\overline{A'B'}`</span> ou <span class="math">`\overline{AB}`</span> sont des
+grandeurs orientées, et donc il faut respecter leurs orientations
+physique en leur attribuant le bon signe <span class="math">`-/+`</span>.</p>
+</li>
+<li><p>Le signe de <span class="math">`\gamma`</span> signifie si l’image est dans le même sens que
+l’objet (<span class="math">`\gamma&gt;0`</span>) ou renversée (<span class="math">`\gamma&lt;0`</span>).</p>
+</li>
+<li><p>La norme du grandissement <span class="math">`\abs{\gamma}`</span> signifie le facteur de
+grandissement.</p>
+</li>
+<li><p>L’image est plus grande si <span class="math">`\abs{\gamma}&gt;1`</span> et plus petite si
+<span class="math">`\abs{\gamma}&lt;1`</span>.</p>
+</li>
+</ul>
+<div class="shaded">
+<p><span class="math">`\triangleright \quad`</span><strong>Exercice .</strong> Considérons une lentille
+convergente de vergence <span class="math">`C=5\; \delta`</span> . Caractériser l’image <span class="math">`A'B'`</span>
+de l’objet <span class="math">`AB`</span> situé à <span class="math">`5\; cm`</span> du centre optique. Répondez en
+utilisant du papier millimétré et grâce à une construction précise de
+l’image.</p>
+</div>
+<div class="shaded">
+<p><span class="math">`\triangleright \quad`</span><strong>Exercice .</strong> A quelle distance du centre
+optique <span class="math">`O`</span> se situe l’image <span class="math">`A'B'`</span> de l’exercice précédent?</p>
+</div>
+<div class="shaded">
+<p><span class="math">`\triangleright \quad`</span><strong>Exercice .</strong> Pour le grandissment <span class="math">`\gamma`</span>
+faite la démonstration pour justifier
+<span class="math">`\dfrac{\overline{A'B'}}{\overline{AB}} = \dfrac{\overline{OA'}}{\overline{OA}}`</span></p>
+</div>
+<div class="mdframed">
+<p><strong>Remarque.</strong> <em>Afin d’optimiser la qualité d’une imagé formée à travers
+d’une lentille on exige un ensemble de conditions appelé les <strong>«
+conditions de Gauss »</strong> :</em></p>
+<ul>
+<li><p>Le faisceau doit traverser la lentille au voisinage du centre optique.</p>
+</li>
+<li><p>Les rayons incidents doivent faire un angle faible avec l’axe optique
+de la lentille.</p>
+</li>
+</ul>
+<p>Sauriez-vous justifier les conditions de Gauss? (Penser à la réfraction
+de lumière polychromatique en passant par un dioptre séparant deux
+milieux différents)...</p>
+</div>
+<doc-anchor-target id="lœil-humain">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lœil-humain">#</doc-anchor-trigger>
+        <span>L’œil humain</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="lœil-réduit--un-modèle-de-lœil-humain">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lœil-réduit--un-modèle-de-lœil-humain">#</doc-anchor-trigger>
+        <span>Lœil réduit : Un modèle de l’œil humain</span>
+    </h2>
+</doc-anchor-target>
+<div class="wrapfigure">
+<p>l0.5 <img src="../img/12/oeil.jpg" style="width:95.0%" alt="image" /></p>
+</div>
+<p>Nous avons maintenant tous les outils nécessaires pour la modélisation
+de l’œil. Même si, <em>physiologiquement</em>, la structure de l’œil paraît
+assez complexe, <em>physiquement</em> son fonctionnement est basé sur quelques
+principes physiques simples et facilement modélisables. L’œil est
+constitué d’une lentille qui modifie le trajet de la lumière pénétrant
+dans l’œil (le cristallin<span style="color: purple">(= lens</span>)) et
+d’un capteur de lumière situé derrière la lentille (la
+rétine<span style="color: purple">(= retina</span>)) (cf. Figure
+ci-contre).</p>
+<p>Ce modèle s’appelle <strong>l’œil réduit</strong>, car on remplace l’ensemble des
+milieux transparents (humeur aqueuse, cristallin) <strong>par une lentille
+mince convergente</strong>. <strong>Il s’agit donc de l’association d’un diaphragme
+accolé à une lentille convergente, et un écran où se forme l’image
+projetée par la lentille.</strong></p>
+<p>Dans notre modélisation, la rétine sera remplacée par un écran, où se
+forment les images des objets dont la lumière pénètre l’œil. La distance
+entre la lentille et l’écran est de <span class="math">`17mm`</span> afin de bien modéliser la
+taille réelle de l’œil humain.</p>
+<figure id="fig:\oe ilcompare">
+<img src="../img/12/oeil4.jpg" />
+<figcaption>œil réel &amp; œil réduit</figcaption>
+</figure>
+<p>L’œil humain est soit dans un état de repos (les muscles ciliaires ne
+sont pas contractés), ou dans un état d’accommodation (muscles ciliaires
+contractés). Dans son état de repos, le foyer image de l’œil est situé
+sur la rétine, c’est-à-dire <strong>la lumière provenant d’un objet situé à
+l’infini converge sur la rétine sans action musculaire de la part de
+l’œil</strong>. Par conséquent si l’objet se rapproche de l’œil, sans
+accommodation, son image se forme, théoriquement, en arrière de la
+rétine.</p>
+<p>Les muscles ciliaires, en se contractant, changent la distance focale de
+la lentille, rapprochant le foyer image jusqu’à ce que l’image se forme
+parfaitement sur la rétine : <strong>c’est l’accommodation</strong> (cf. Figure
+<a href="#fig:acommode" data-reference-type="ref"
+data-reference="fig:acommode">6</a>).</p>
+<figure id="fig:acommode">
+<figure>
+<img src="../img/12/acommodation.jpg" />
+</figure>
+<figure>
+<img src="../img/12/acommodation.png" />
+</figure>
+<figcaption>L’accommodation de l’œil</figcaption>
+</figure>
+<p>La différence principale, bien sûr, entre cette modélisation et l’œil,
+est que la distance focale de la lentille dans notre modèle est fixe,
+alors que l’œil est capable, grâce à l’action des muscles ciliaires de
+changer sa distance focale (i.e. accommodation). On peut remédier à ce
+problème en changeant la lentille pour des différents objets en fonction
+de leurs distances par rapport à l’œil.</p>
+<doc-anchor-target id="les-défauts-de-lœil-annexe-pour-ceux-qui-veulent-aller-plus-loin">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#les-défauts-de-lœil-annexe-pour-ceux-qui-veulent-aller-plus-loin">#</doc-anchor-trigger>
+        <span>Les défauts de l’œil (Annexe pour ceux qui veulent aller plus loin)</span>
+    </h2>
+</doc-anchor-target>
+<div class="leftbar">
+<p><strong>Définition : <em>Caractérisation de l’œil</em></strong></p>
+<ul>
+<li><p><strong>Punctum Remotum (PR) <span style="color: purple">(= Far
+point</span>) :</strong> est le point le plus éloigné vu nettement sans
+accommodation. Pour un œil normal en bonne santé, le PR se situe à
+l’infini.</p>
+</li>
+<li><p><strong>Punctum Proximum (PP) <span style="color: purple">(= Near
+point</span>):</strong> est le point le plus proche visible nettement au
+maximum d’accommodation. Le PP est à environ 10 cm pour un enfant et
+se dégrade avec l’âge.</p>
+</li>
+</ul>
+</div>
+<p>La quasi-totalité des êtres humains sont nés avec des yeux qui
+fonctionnent correctement dans la première partie de la vie. Mais à
+partir d’un certain âge, des défauts de vision peuvent se produire ; ce
+que l’on corrige grâce aux lunettes. Par ailleurs, la cause de ces
+défauts est souvent la déformation de l’œil en raison de la croissance.
+C’est pourquoi la période de puberté est le début de l’apparition de ces
+problèmes pour beaucoup. La croissance du crâne qui entraîne une légère
+déformation du globe de l’œil qui a pour résultat le décalage de la
+rétine par rapport au point focal du cristallin.</p>
+<p>Nous allons donc comprendre le principe des défauts oculaires, en les
+étudiant avec notre modèle de l’œil réduit.</p>
+<div class="leftbar">
+<p><strong>Définition : <em>Les défaut de l’œil</em></strong></p>
+<ul>
+<li><p><strong>Œil emmétrope :</strong> l’œil normal, c’est-à-dire un œil qui fonctionne
+normalement. L’œil au repos, voit un objet lointain (i.e. situé à
+l’infini) parfaitement.</p>
+</li>
+<li><p><strong>Œil myope :</strong> l’œil ne peut pas voir nettement un objet lointain. Le
+PR n’est plus à l’infini.</p>
+</li>
+<li><p><strong>Œil hypermétrope :</strong> L’œil ne peut pas voir nettement un objet situé
+à l’infini sans accommodation, et par conséquent le PP est supérieur à
+celui d’un œil emmétrope.</p>
+</li>
+<li><p><strong>Presbytie :</strong> un défaut d’accommodation dû au vieillissement. Le
+cristallin perd son élasticité, et donc le PP s’éloigne de l’œil.</p>
+</li>
+</ul>
+</div>
+<p><strong>Dans chaque défaut, l’image de l’objet ne se forme pas sur la
+rétine</strong>, et donc l’image vue est floue. Si on y pense, on voit bien
+deux possibilités :</p>
+<ul>
+<li><p>L’image se forme <strong>devant la rétine</strong>, donc l’œil est <strong>trop
+convergent</strong> : l’œil est <strong>myope</strong>.</p>
+</li>
+<li><p>L’image se forme <strong>derrière la rétine</strong>, donc l’œil n’est <strong>pas
+suffisamment convergent</strong> : l’œil est <strong>hypermétrope</strong> (ou presbyte).</p>
+</li>
+</ul>
+<doc-anchor-target id="myopie--myopia-near-sightedness-œil-trop-convergent">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#myopie--myopia-near-sightedness-œil-trop-convergent">#</doc-anchor-trigger>
+        <span>Myopie <span style="color: purple">(= Myopia, near-sightedness</span>): Œil trop convergent</span>
+    </h3>
+</doc-anchor-target>
+<p>Afin de corriger ce défaut, il faut <strong>repousser la convergence</strong> vers la
+rétine, c’est à dire rendre l’œil moins convergent. Ceci est corrigé en
+plaçant une lentille divergente devant les yeux : des lunettes
+divergentes ! Le choix de la puissance des lunettes dépend du degré de
+myopie.</p>
+<figure id="fig:myope">
+<figure>
+<img src="../img/12/myope.jpg" />
+</figure>
+<figure>
+<img src="../img/12/myope2.jpg" />
+</figure>
+<figcaption>L’œil myope.</figcaption>
+</figure>
+<doc-anchor-target id="hypermétropie--hymermetropia-far-sightedness-œil-trop-divergent">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hypermétropie--hymermetropia-far-sightedness-œil-trop-divergent">#</doc-anchor-trigger>
+        <span>Hypermétropie <span style="color: purple">(= hymermetropia, far-sightedness</span>): Œil trop divergent</span>
+    </h3>
+</doc-anchor-target>
+<p>Afin de corriger ce défaut il faut <strong>faire revenir le foyer image</strong> de
+l’œil sur la rétine, c’est-à-dire rendre l’œil plus convergent. Ceci est
+corrigé en plaçant une lentille convergente devant les yeux : des
+lunettes convergentes ! Comme avant, le choix de la puissance des
+lunettes dépend du degré d’hypermétropie.</p>
+<figure id="fig:hypermet">
+<figure>
+<img src="../img/12/hypermet.jpg" />
+</figure>
+<figure>
+<img src="../img/12/hypermet2.jpg" />
+</figure>
+<figcaption>L’œil hypermétrope.</figcaption>
+</figure>
+<doc-anchor-target id="presbytie--presbyopia-œil-vieilli">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#presbytie--presbyopia-œil-vieilli">#</doc-anchor-trigger>
+        <span>Presbytie <span style="color: purple">(= Presbyopia</span>): Œil vieilli</span>
+    </h3>
+</doc-anchor-target>
+<p>La presbytie n’est pas vraiment une maladie comme la myopie ou
+l’hypermétropie, c’est plutôt une conséquence du vieillissement de
+l’œil. Il s’agit du durcissement du cristallin qui rend l’accommodation
+plus difficile pour l’œil. Le résultat est l’apparition de difficultés
+de vision aux distances proches. D’où le besoin de lunettes correctives
+pour la lecture. En ce sens-là les symptômes ressemblent beaucoup à ceux
+de l’hypermétropie. Par conséquent, la correction, comme pour l’œil
+hypermétrope, s’effectue grâce aux lentilles convergentes.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../ch10-lumiere/refraction/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Réflexion & Réfraction</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../ch9-ondes/ch9/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Phénomènes périodiques</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright S Zayyani 2025. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Voir un objet", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: true, tocDepth: 23 }</script>
+</body>
+</html>
