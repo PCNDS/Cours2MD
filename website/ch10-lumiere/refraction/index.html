@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.806599638195">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>R&#233;flexion &amp; R&#233;fraction</title>
+    <meta name="title" content="Réflexion & Réfraction">
+    <meta name="description" content="La lumière étant une onde électromagnétique(= electromagnetic wave), elle ne nécessite pas de milieu matériel pour sa propagation (chapitre">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://docs.example.com/ch10-lumiere/refraction/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://docs.example.com/ch10-lumiere/refraction/">
+    <meta property="og:title" content="Réflexion & Réfraction">
+    <meta property="og:description" content="La lumière étant une onde électromagnétique(= electromagnetic wave), elle ne nécessite pas de milieu matériel pour sa propagation (chapitre">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://docs.example.com/ch10-lumiere/refraction/">
+    <meta property="twitter:title" content="Réflexion & Réfraction">
+    <meta property="twitter:description" content="La lumière étant une onde électromagnétique(= electromagnetic wave), elle ne nécessite pas de milieu matériel pour sa propagation (chapitre">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../resources/css/retype.css?v=3.11.0.806599638195" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.806599638195" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.806599638195" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.806599638195" defer></script>
+    <link href="../../resources/css/katex.css?v=3.11.0" rel="stylesheet">
+    <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.11.0" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Cours de Physique - 2nde général</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Cours</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Home</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Home</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="réflexion--réfraction" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#réflexion--réfraction">#</doc-anchor-trigger>
+        <span>Réflexion &amp; Réfraction</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="lumière-dans-différents-milieux">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lumière-dans-différents-milieux">#</doc-anchor-trigger>
+        <span>Lumière dans différents milieux</span>
+    </h2>
+</doc-anchor-target>
+<p>La lumière étant une <strong>onde électromagnétique</strong>
+<span style="color: purple">(= electromagnetic wave</span>), elle ne
+nécessite pas de milieu matériel pour sa propagation (chapitre
+précédent). Cependant, ceci ne veut pas dire que la lumière ne peut pas
+passer dans un milieu matériel. En fait, tant que le milieu est
+<em>transparent</em> et non <em>opaque</em>, la lumière peut s’y propager (sinon
+comment la lumière peut-elle traverse une vitre, ou l’atmosphère).</p>
+<p>Nous avons vu aussi que la célérité <span style="color: purple">(= phase
+velocity</span>) de la lumière est notée
+<strong><span class="math">`c=3,0\cdot 10^{8}\; m\cdot s^{-1}`</span></strong>, et que cette vitesse est la
+vitesse limite dans l’univers (merci Albert !). Mais, la célérité de la
+lumière n’est pas constante, c’est-à-dire que la lumière se propage à
+des vitesses plus lentes dans différents milieux transparents. Sans
+entrer dans les détails, en raison des interactions entre la lumière -
+en tant qu’onde électromagnétique - et les champs électromagnétiques
+présents dans les atomes et les molécules, la lumière se déplace plus
+lentement dans un milieu matériel. Parmi les facteurs influençant la
+célérité de la lumière dans un milieu matériel, nous pouvons compter la
+densité du milieu comme un facteur important.</p>
+<p>Nous caractérisons la célérité de la lumière dans un milieu matériel en
+définissant un <strong>indice de réfraction</strong> du milieu.</p>
+<div class="leftbar">
+<p><strong>Définition : <em>Indice de réfraction <span style="color: purple">(=
+refractive index</span>)</em></strong></p>
+<ul>
+<li><p>L’indice de réfraction d’un milieu mesure le <strong>facteur de réduction</strong>
+de la vitesse de la lumière dans le milieu.</p>
+</li>
+<li><p>Elle exprime donc le <strong>rapport entre la vitesse de le lumière dans le
+vide et sa vitesse dans le milieu</strong> étudié:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">n = \dfrac{c}{v} \text{ \quad   où   \quad } 
+        \begin{cases}
+        c \longrightarrow\text{ la célérité de la lumière dans le vide  } \\
+        v \longrightarrow\text{ la célérité de la lumière dans le milieu  }
+        \end{cases}</code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+</div>
+<p>En se basant sur cette définition, nous pouvons faire quelques
+conclusions simples :</p>
+<ul>
+<li><p><span class="math">`n`</span> est une grandeur sans unité <span style="color: purple">(=
+unitless</span>),</p>
+</li>
+<li><p>dans le vide l’indice de réfraction est <span class="math">`n=1`</span> ,</p>
+</li>
+<li><p>de manière générale <span class="math">`n\geq1`</span> ,</p>
+</li>
+<li><p>plus <span class="math">`n`</span> est important, plus la lumière se déplace lentement dans le
+milieu concerné.</p>
+</li>
+<li><p>plus <span class="math">`n`</span> est important, plus le milieu est dit <strong>réfringent</strong>.</p>
+</li>
+</ul>
+<p>Voici un tableau de quelques indices de réfraction communs :</p>
+<div class="center">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;">milieu</th>
+<th style="text-align: center;">vide</th>
+<th style="text-align: center;">air</th>
+<th style="text-align: center;">eau</th>
+<th style="text-align: center;">verre</th>
+<th style="text-align: center;">diamant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">indice</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1,0003</td>
+<td style="text-align: center;">1,33</td>
+<td style="text-align: center;">1,4 - 1,6</td>
+<td style="text-align: center;">2,4</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="shaded">
+<p><span class="math">`\triangleright \quad`</span><strong>Exercice .</strong></p>
+<p>A partir des données dans le tableau précédent, déterminer la célérité
+de la lumière dans le diamant.</p>
+<p>Déterminer l’indice de réfraction d’une matière, si la lumière se
+déplace à une vitesse de <span class="math">`v=2.1\cdot 10^{8}\; m\cdot s^{-1}`</span>.</p>
+</div>
+<p>Les lois de Descartes-Snell nous donnent, de manière quantitative, des
+relations mathématiques qui nous permettront de déterminer le
+comportement d’un rayon lumineux incident à une surface, avant et après
+son incidence.</p>
+<p>Ils parlent notamment de deux phénomènes : la <strong>réflexion</strong> et la
+<strong>réfraction</strong>. Il faut donc d’abord définir quelques termes importants.</p>
+<div class="leftbar">
+<p>**Définition : **</p>
+<ul>
+<li><p>Un <strong>dioptre</strong> est constitué par une surface séparant deux milieux
+différents. Un dioptre est plan quand la surface est plane.</p>
+</li>
+<li><p>Le rayon lumineux qui arrive sur le dioptre s’appelle le <strong>rayon
+d’incidence</strong>.</p>
+</li>
+<li><p>Le point d’arrivée du rayon incident sur le dioptre s’appelle le
+<strong>point d’incidence</strong>.</p>
+</li>
+<li><p>la ligne imaginaire <strong>perpendiculaire au dioptre</strong> au point
+d’incidence s’appelle <strong>la normale</strong> au dioptre.</p>
+</li>
+<li><p>l’angle qui se forme entre la normale et le rayon incident s’appelle
+<strong>l’angle d’incidence</strong>, noté <span class="math">`i`</span>.</p>
+</li>
+</ul>
+</div>
+<doc-anchor-target id="réflexion">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#réflexion">#</doc-anchor-trigger>
+        <span>Réflexion</span>
+    </h3>
+</doc-anchor-target>
+<div class="wrapfigure">
+<p>r0.4 <img src="../img/11/reflexion.jpg" style="width:40.0%" alt="image" /></p>
+</div>
+<p>En optique, une réflexion est le <strong>renvoie d’un rayon lumineux par une
+surface</strong>. L’angle qui se forme entre le rayon réfléchi et la normale au
+point d’incidence s’appelle <strong>l’angle de réflexion</strong> noté <span class="math">`i'`</span> (ou
+<span class="math">`r`</span>).</p>
+<p>Dans le cas d’une réflexion d’après la loi de Descartes-Snell pour la
+réflexion, l’angle de réflexion et l’angle d’incidence ont la même
+valeur :</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">i = i'\text{\quad ou \quad } i = r</code></pre>
+</doc-codeblock></div>
+<p>C’est un résultat presque évident, car nous le voyons tout le temps dans
+le quotidien. Mais il est important de l’énoncer, et la démonstration de
+ce résultat, par un raisonnement théorique, est au-delà du niveau de
+seconde.</p>
+<div class="mdframed">
+<p><strong>Remarque.</strong> <em>Ce résultat est une conséquence d’un principe important
+de physiqe, le <strong>principe de Fermat</strong>. La forme simple de ce principe
+dit que la lumière va toujours emprunter le chemin entre deux point
+<span class="math">`A`</span> et <span class="math">`B`</span> qui <strong>minimise la durée du trajet</strong>. Un calcul (pas
+compliqué) suivant ce principe nous donne comme conclusion la loi de
+Descartes-Snell, c’est à dire <span class="math">`i=r`</span>.</em></p>
+</div>
+<doc-anchor-target id="réfraction">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#réfraction">#</doc-anchor-trigger>
+        <span>Réfraction</span>
+    </h2>
+</doc-anchor-target>
+<figure>
+<figure>
+<img src="../img/11/refraction3.jpg" />
+</figure>
+<figure>
+<img src="../img/11/refraction1.jpg" />
+</figure>
+<figure>
+<img src="../img/11/2efraction1.jpg" />
+</figure>
+<figcaption>Trois exemples de réfraction dans le quotidien</figcaption>
+</figure>
+<figure>
+<img src="../img/11/descartes.jpg" style="width:70.0%" />
+<figcaption>Schéma légendé d’une réfraction.</figcaption>
+</figure>
+<p>D’abord définissons quelques termes pour mieux comprendre la figure 2:</p>
+<ul>
+<li><p>Le rayon lumineux qui arrive sur le dioptre s’appelle le <strong>rayon
+d’incidence.</strong></p>
+</li>
+<li><p>Le point du dioptre traversé par le rayon incident s’appelle le
+<strong>point d’incidence</strong> (<span class="math">`I`</span>).</p>
+</li>
+<li><p>Le rayon lumineux qui <strong>se propage dans le deuxième milieu</strong> après la
+réfraction s’appelle le <strong>rayon réfracté</strong>.</p>
+</li>
+<li><p>La droite <strong>perpendiculaire</strong> au point d’incidence <span class="math">`I`</span> s’appelle la
+normale à la surface de séparation.</p>
+</li>
+<li><p>L’angle entre le <strong>rayon d’incidence et la normale</strong> s’appelle
+l’<strong>angle d’incidence <span class="math">`i`</span></strong> .</p>
+</li>
+<li><p>L’angle entre le rayon réfracté et la normale s’appelle l’<strong>angle de
+réfraction</strong> <span class="math">`r`</span>.</p>
+</li>
+<li><p>Le plan contenant le rayon incident et la normale au point d’incidence
+s’appelle le <strong>plan d’incidence</strong>.</p>
+</li>
+</ul>
+<div class="leftbar">
+<p><strong>Définition : <em>Réfraction</em></strong></p>
+<p>On appelle <strong>réfraction</strong> de la lumière le <strong>changement de direction</strong>
+que la lumière subit à la <strong>traversée de la surface de séparation</strong>
+entre deux milieux transparents différents (i.e. un dioptre).</p>
+</div>
+<div class="shaded">
+<p><strong><span class="math">`1^{ère}`</span> loi de Descartes-Snell pour la réfraction :</strong></p>
+<p>Le rayon réfracté est dans le plan d’incidence.</p>
+</div>
+<p>Cette loi assure que le phénomène de réfraction reste en deux
+dimensions, i.e. dans un plan, celui du rayon incident.</p>
+<div class="shaded">
+<p><strong><span class="math">`2^{ème}`</span> loi de Descartes-Snell pour la réfraction :</strong></p>
+<p>Considérer deux milieux transparents d’indices <span class="math">`n_1`</span> et <span class="math">`n_2`</span> (comme
+dans la figure 2 ci-avant). Il existe la relation suivante entre l’angle
+d’incidence <span class="math">`i`</span> et l’angle de réfraction <span class="math">`r`</span> :</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">n_1\cdot \sin{i} = n_2\cdot \sin{r}</code></pre>
+</doc-codeblock></div>
+</div>
+<div class="shaded">
+<p><strong>Exemple:</strong></p>
+<div class="wrapfigure">
+<p>r0.55 <img src="11/refraction3.jpg" alt="image" /></p>
+</div>
+<p>Dans la figure ci-contre, nous voyons un exemple classique de la
+réfraction d’un rayon de LASER en passant de l’air (premier milieu
+<span class="math">`n_1=1,00`</span>) dans le plexiglas (deuxième milieu avec <span class="math">`n_2=1,51`</span>).</p>
+<p>On peut observer clairement l’angle d’incidence <span class="math">`i=60 \degree`</span>.</p>
+<p>Calculons l’angle de réfraction (théorique) selon la loi de Descartes,
+et comparons-le à la valeur de l’angle de réfraction <span class="math">`r`</span> observé.</p>
+<p>D’après la deuxième loi:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">n_1 \sin{i} = n_2 \sin{r}</code></pre>
+</doc-codeblock></div>
+<p>Vérifions l’angle de réfraction pour un angle d’incidence
+<span class="math">`i=60\degree`</span> :</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">\begin{aligned}
+   n_1 \sin{i} &amp;= n_2 \sin{r} \\     
+   \sin{r} &amp;= \left( \dfrac{n_1}{n_2} \right)\cdot\sin{i} \\
+   r &amp;= \arcsin{\left[\left( \dfrac{n_1}{n_2} \right)\cdot \sin{i} \right]}
+\end{aligned}</code></pre>
+</doc-codeblock></div>
+<p>Application numérique :</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">\begin{aligned}
+    r &amp;= \arcsin{\left[\left( \dfrac{n_1}{n_2} \right)\cdot \sin{i} \right]} \\
+    &amp;= \arcsin{\left[\left( \dfrac{1,00}{1,512} \right)\cdot \sin{60} \right]} \\
+    &amp;= 35\degree
+\end{aligned}</code></pre>
+</doc-codeblock></div>
+<p>Ce qui correspond à l’angle de réfraction observé.</p>
+</div>
+<div class="shaded">
+<p><span class="math">`\triangleright \quad`</span><strong>Exercice .</strong> Déterminer la déviation d’un
+rayon incident qui est perpendiculaire au dioptre ?</p>
+</div>
+<doc-anchor-target id="explication-de-la-dispersion">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#explication-de-la-dispersion">#</doc-anchor-trigger>
+        <span>Explication de la dispersion</span>
+    </h2>
+</doc-anchor-target>
+<p>Enfin, nous pouvons mieux expliquer le phénomène de la dispersion de la
+lumière blanche. En fait, la dispersion de la lumière blanche n’est que
+sa réfraction (ou plutôt double réfraction) dans le prisme (ou n’importe
+quel autre milieu).</p>
+<div class="wrapfigure">
+<p>r0.55 <img src="11/prismrefrac.jpg" style="width:90.0%" alt="image" /></p>
+</div>
+<p>Le point clef à comprendre est le fait que l’<strong>indice de réfraction est
+légèrement différent selon la couleur</strong> (et donc la longueur d’onde) de
+la lumière colorée (oui, cela implique que les lumières de différentes
+couleur n’ont pas la même célérité dans un même milieu de propagation!
+).</p>
+<p>Par conséquent pour un même angle d’incidence <span class="math">`i`</span>, l’angle de
+réfraction <span class="math">`r`</span> est légèrement différent pour chaque lumière colorée :
+les différentes lumières colorées constituant la lumière blanche
+subissent un angle de réfraction différemment, les séparant à la sortie
+du prisme.</p>
+<p>En passant à travers d’un prisme en verre (ou plexiglas) la lumière
+franchit <strong>deux dioptres</strong> : air/verre et puis verre/air. Puisqu’un
+prisme réfracte différemment les radiations qui composent la lumière
+blanche, cela signifie que l’indice du verre n’a pas la même valeur
+selon les longueurs d’onde de ces radiations.</p>
+<doc-anchor-target id="réflexion-totale">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#réflexion-totale">#</doc-anchor-trigger>
+        <span>Réflexion totale</span>
+    </h2>
+</doc-anchor-target>
+<p>Pour le moment nous avons vu des exemples de réfraction où nous passons
+d’un milieu moins réfringent vers un milieu plus réfringent (i.e. avec
+un indice <span class="math">`n`</span> plus petit vers un indice plus grand). C’est le cas d’un
+passage de l’air (<span class="math">`n\sim 1,00`</span>) dans le verre (<span class="math">`n\sim 1,50`</span>). Voyons
+(dans les figures suivantes) l’évolution de l’angle de réfraction
+pendant le passage d’un rayon incident perpendiculaire vers un rayon
+incident presque parallèle à la surface de séparation.</p>
+<figure>
+<figure>
+<img src="11/i1.jpg" />
+</figure>
+<figure>
+<img src="11/i2.jpg" />
+</figure>
+<figure>
+<img src="11/i3.jpg" />
+</figure>
+<figure>
+<img src="11/i4.jpg" />
+</figure>
+<figcaption>Variation de <span class="math inline"><em>i</em></span> et
+de <span class="math inline"><em>r</em></span> pour un rayon passant de
+l’air dans le verre.</figcaption>
+</figure>
+<p>Ce qui est important à noter est le fait que <strong>à tout moment
+<span class="math">`i &gt; r`</span></strong>. Par conséquent, même avec un rayon incident presque
+parallèle à la surface de séparation <strong>le rayon réfracté reste dans le
+deuxième milieu</strong>, et avec une valeur bien inférieure à l’angle du rayon
+incident.</p>
+<p>Posons-nous la question de ce qui se passerait dans le cas inverse : si
+la lumière passe du verre dans l’air (la différence étant que le passage
+est d’un milieu avec un indice de réfraction supérieur vers un milieu
+avec un indice de réfraction inférieur), que se passe-t-il?.</p>
+<figure>
+<figure>
+<img src="11/r1.jpg" />
+</figure>
+<figure>
+<img src="11/r2.jpg" />
+</figure>
+<figure>
+<img src="11/r3.jpg" />
+</figure>
+<figure>
+<img src="11/r4.jpg" />
+</figure>
+<figcaption>Variation de <span class="math inline"><em>i</em></span> et
+de <span class="math inline"><em>r</em></span> pour un rayon passant du
+verre dans l’air.</figcaption>
+</figure>
+<p>Nous voyons clairement une différence fondamentale par rapport au cas
+précédent : <strong>l’angle de réfraction <span class="math">`r &gt; i`</span></strong>. Par conséquent, l’angle
+de réfraction croît plus rapidement que l’angle d’incidence et donc nous
+arrivons, à un moment donné, à un angle d’incidence pour lequel l’angle
+de réfraction est presque <span class="math">`90\degree`</span>. Si l’on dépasse cet angle
+critique, il n’y aura plus de réfraction! Ce phénomène s’appelle une
+réflexion totale, ou une réflexion interne.</p>
+<div class="leftbar">
+<p><strong>Définition : <em>Réflexion totale <span style="color: purple">(= total
+internal reflexion</span>)</em></strong></p>
+<ul>
+<li><p>En optique géométrique, un rayon lumineux traversant une séparation
+entre deux milieux d’indices optiques différents peut subir une
+réflexion et une réfraction. Lorsqu’il n’y a pas de rayon réfracté, on
+dit qu’il subit une réflexion totale.</p>
+</li>
+<li><p>Ce phénomène n’intervient que lorsque le rayon lumineux incident passe
+d’une milieu moins réfringent dans un milieu plus réfringent, c’est à
+dire lorsque l’indice de réfraction du deuxième milieu est supérieur à
+celui du premier milieu : <span class="math">`n_1 &gt; n_2`</span>.</p>
+</li>
+<li><p>Il existe un <strong>angle limite</strong> donc à partir duquel la réfraction n’est
+plus possible (car l’angle de réfraction serait au-delà de
+<span class="math">`90\degree`</span>). C’est angle limite s’appelle <strong>l’angle critique</strong>.</p>
+</li>
+<li><p>La loi de Descartes-Snell permet de déterminer l’expression de l’angle
+critique <span class="math">`\theta_\ell`</span>:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-latex"><code v-pre class="language-latex">\theta_\ell = \arcsin{\left( \dfrac{n_2}{n_1} \right)}</code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+</div>
+<figure>
+<img src="11/reftotale.jpg" style="width:60.0%" />
+<figcaption>Exemple d’une réflexion totale dans un prisme.</figcaption>
+</figure>
+<doc-anchor-target id="explication-dautres-phénomènes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#explication-dautres-phénomènes">#</doc-anchor-trigger>
+        <span>Explication d’autres phénomènes</span>
+    </h2>
+</doc-anchor-target>
+<p>Une compréhension de la réfraction, et surtout de la notion de la
+réflexion totale interne, nous permet aussi d’expliquer de nombreux
+autres phénomènes. Voici en quelques-uns :</p>
+<doc-anchor-target id="arc-en-ciel">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#arc-en-ciel">#</doc-anchor-trigger>
+        <span>Arc-en-ciel</span>
+    </h3>
+</doc-anchor-target>
+<p>Le phénomène d’arc-en-ciel est comme la dispersion de la lumière blanche
+dans un prisme, cette fois <strong>dans une goutte d’eau à la place du
+prisme</strong>, comme vous le voyez dans la figure ci-après.</p>
+<p>La lumière venant du soleil traverse un premier dioptre en entrant la
+goutte d’eau. Elle subit une première réfraction et donc une première
+séparation des lumière colorée. Puis, après une réflexion interne (que
+l’on va étudier dans la partie suivante), elle traverse une deuxième
+fois un dioptre (cette fois eau-air) et subit une deuxième réfraction,
+séparant davantage les lumières colorées, comme dans un prisme.</p>
+<figure>
+<figure>
+<img src="11/rainbow1.png" />
+</figure>
+<figure>
+<img src="11/rainbow2.jpg" />
+</figure>
+</figure>
+<p>A sa sortie, la lumière blanche a bien été dispersée et décomposée en
+lumières colorées. Un point intéressant à noter est que pour qu’un
+arc-en-ciel soit visible, il faut que l’observateur soit situé entre le
+soleil (dans son dos) et la pluie (devant lui).</p>
+<doc-anchor-target id="mirages">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mirages">#</doc-anchor-trigger>
+        <span>Mirages</span>
+    </h3>
+</doc-anchor-target>
+<p>Un mirage est une déviation forte des rayons du soleil, en raison de la
+création d’un milieu hétérogène dû à une variation forte de la
+température de l’air à proximité du sol.</p>
+<p>Dans certaines conditions, notamment quand le sol est très chaud en
+raison d’un fort ensoleillement, l’air voisin du sol est bien plus chaud
+que l’air plus haut. En effet, plus on s’éloigne du sol moins l’air
+serait chaud. Un changement de température d’air entraîne un changement
+de sa densité, et par conséquent son indice de réfraction (moins dense
+<span class="math">`\longrightarrow`</span> moins réfringent).</p>
+<p>Les rayons lumineux venant du ciel vont donc subir des réfractions
+successives jusqu’au niveau du sol, où ils subiront une réflexion
+totale, et seront renvoyés vers le haut. Si l’on reçoit ces rayons, nous
+aurions l’impression de voir une flaque d’eau au niveau du sol, mais
+c’est simplement la réflexion du bleu du ciel dans le sol.</p>
+<figure>
+<img src="11/mirage.jpg" style="width:90.0%" />
+<figcaption>Déviation progressive de la lumière venant du soleil, en
+raison de la variation progressive de l’indice de réfraction due à une
+forte variation de température entre le sol et l’air à quelques mètres
+du sol.</figcaption>
+</figure>
+<doc-anchor-target id="fibres-optiques--optical-fiber">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fibres-optiques--optical-fiber">#</doc-anchor-trigger>
+        <span>Fibres optiques <span style="color: purple">(= Optical fiber</span>)</span>
+    </h3>
+</doc-anchor-target>
+<div class="wrapfigure">
+<p>r0.4 <img src="11/fibreoptique.jpg" alt="image" /></p>
+</div>
+<p>Une fibre optique est une fibre en verre ou en plastique (très fin) qui,
+grâce au phénomène de réflexion totale permet la conduction d’un rayon
+lumineux.</p>
+<p>Ce coeur de la fibre est entouré d’une gaine avec un indice de
+réfraction inférieur, ce qui permet la réflexion totale de la lumière,
+comme visible dans la figure ci-après.</p>
+<p>Une fibre optique a des avantages importants par rapport à un câble
+électrique, notamment par le fait de pouvoir transmettre l’information à
+la vitesse de la lumière.</p>
+<doc-anchor-target id="exercices-résolus">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#exercices-résolus">#</doc-anchor-trigger>
+        <span>Exercices résolus</span>
+    </h1>
+</doc-anchor-target>
+<figure>
+<img src="11/xorefr.jpg" />
+</figure>
+<figure>
+<img src="11/xo2.jpg" />
+</figure>
+<figure>
+<img src="11/xo3.jpg" />
+</figure>
+<figure>
+<img src="11/xo4.jpg" />
+</figure>
+<figure>
+<img src="" />
+</figure>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../ch10-lumiere/spectres/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Dispersion de la lumière blanche</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../ch10-lumiere/optique/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Voir un objet</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright S Zayyani 2025. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Réflexion & Réfraction", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: true, tocDepth: 23 }</script>
+</body>
+</html>

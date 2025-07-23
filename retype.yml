@@ -9,7 +9,7 @@ start:
 
 branding:
   title: Cours de Physique - 2nde général
-  label: Cours
+  label: Physique!
 
 links:
   - text: Home
@@ -17,3 +17,4 @@ links:
 
 footer:
   copyright: "&copy; Copyright S Zayyani {{ 2025 }}. All rights reserved."
+

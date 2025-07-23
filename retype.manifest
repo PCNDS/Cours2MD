@@ -1,0 +1,873 @@
+{
+  "version": "3.11.0",
+  "created": "2025-07-23T15:27:40Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "ch0-preamble/ch0-1/index.html"
+    },
+    {
+      "path": "ch0-preamble/ch0-2/index.html"
+    },
+    {
+      "path": "ch0-preamble/ch0-3/index.html"
+    },
+    {
+      "path": "ch0-preamble/ch0-4/index.html"
+    },
+    {
+      "path": "ch0-preamble/ch0-5/index.html"
+    },
+    {
+      "path": "ch0-preamble/ch0-6/index.html"
+    },
+    {
+      "path": "ch1/atome-electrons/index.html"
+    },
+    {
+      "path": "ch1/atome-tableeau/index.html"
+    },
+    {
+      "path": "ch1/atomes/index.html"
+    },
+    {
+      "path": "ch1/elelment/index.html"
+    },
+    {
+      "path": "ch10-lumiere/optique/index.html"
+    },
+    {
+      "path": "ch10-lumiere/refraction/index.html"
+    },
+    {
+      "path": "ch10-lumiere/spectres/index.html"
+    },
+    {
+      "path": "ch13-electiricité/ch13/index.html"
+    },
+    {
+      "path": "ch2/isomerie/index.html"
+    },
+    {
+      "path": "ch2/liaisons-covalentes/index.html"
+    },
+    {
+      "path": "ch2/molecules/index.html"
+    },
+    {
+      "path": "ch2/octet/index.html"
+    },
+    {
+      "path": "ch2/organique/index.html"
+    },
+    {
+      "path": "ch3-mesure-de-la-matière/ch3/index.html"
+    },
+    {
+      "path": "ch3-mesure-de-la-matière/ch4/index.html"
+    },
+    {
+      "path": "ch5-la-méca/ch5/index.html"
+    },
+    {
+      "path": "ch5-la-méca/ch6/index.html"
+    },
+    {
+      "path": "ch5-la-méca/ch6bis/index.html"
+    },
+    {
+      "path": "ch7-transformations/transfo-chimique/index.html"
+    },
+    {
+      "path": "ch7-transformations/transfo-phys-nuc/index.html"
+    },
+    {
+      "path": "ch9-ondes/ch9/index.html"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "img/1/090400083470007.jpg"
+    },
+    {
+      "path": "img/1/090400083470008.jpg"
+    },
+    {
+      "path": "img/1/aristote.jpg"
+    },
+    {
+      "path": "img/1/atomodels.png"
+    },
+    {
+      "path": "img/1/couches.png"
+    },
+    {
+      "path": "img/1/cuivre.png"
+    },
+    {
+      "path": "img/1/democrite.jpg"
+    },
+    {
+      "path": "img/1/quantique.jpg"
+    },
+    {
+      "path": "img/1/symbole.png"
+    },
+    {
+      "path": "img/1/tableau1.png"
+    },
+    {
+      "path": "img/1/tableau2.png"
+    },
+    {
+      "path": "img/10/dsotm.jpg"
+    },
+    {
+      "path": "img/10/goutte.png"
+    },
+    {
+      "path": "img/10/loidescarte.jpg"
+    },
+    {
+      "path": "img/10/lumblanche.jpg"
+    },
+    {
+      "path": "img/10/lumvisible.png"
+    },
+    {
+      "path": "img/10/methodespectres.jpg"
+    },
+    {
+      "path": "img/10/mirage.jpg"
+    },
+    {
+      "path": "img/10/prisme.png"
+    },
+    {
+      "path": "img/10/specdiscont.jpg"
+    },
+    {
+      "path": "img/10/spectout.jpg"
+    },
+    {
+      "path": "img/10/spectreraies.jpg"
+    },
+    {
+      "path": "img/10/spectretherm.jpg"
+    },
+    {
+      "path": "img/10/spectroscopie.jpg"
+    },
+    {
+      "path": "img/10/xoref0.jpg"
+    },
+    {
+      "path": "img/10/xoref1.jpg"
+    },
+    {
+      "path": "img/10/xoref2.jpg"
+    },
+    {
+      "path": "img/10/xoref3.jpg"
+    },
+    {
+      "path": "img/10/xospec.jpg"
+    },
+    {
+      "path": "img/10/xospec2.jpg"
+    },
+    {
+      "path": "img/10/xospec3.jpg"
+    },
+    {
+      "path": "img/11/2efraction1.jpg"
+    },
+    {
+      "path": "img/11/descartes.jpg"
+    },
+    {
+      "path": "img/11/dispersion.png"
+    },
+    {
+      "path": "img/11/fibreoptique.jpg"
+    },
+    {
+      "path": "img/11/goutte.png"
+    },
+    {
+      "path": "img/11/i1.jpg"
+    },
+    {
+      "path": "img/11/i2.jpg"
+    },
+    {
+      "path": "img/11/i3.jpg"
+    },
+    {
+      "path": "img/11/i4.jpg"
+    },
+    {
+      "path": "img/11/mirage.jpg"
+    },
+    {
+      "path": "img/11/prismrefrac.jpg"
+    },
+    {
+      "path": "img/11/r1.jpg"
+    },
+    {
+      "path": "img/11/r2.jpg"
+    },
+    {
+      "path": "img/11/r3.jpg"
+    },
+    {
+      "path": "img/11/r4.jpg"
+    },
+    {
+      "path": "img/11/rainbow1.png"
+    },
+    {
+      "path": "img/11/rainbow2.jpg"
+    },
+    {
+      "path": "img/11/reflexion.jpg"
+    },
+    {
+      "path": "img/11/refraction1.jpg"
+    },
+    {
+      "path": "img/11/refraction3.jpg"
+    },
+    {
+      "path": "img/11/reftotale.jpg"
+    },
+    {
+      "path": "img/11/surfaces.jpg"
+    },
+    {
+      "path": "img/11/xo2.jpg"
+    },
+    {
+      "path": "img/11/xo3.jpg"
+    },
+    {
+      "path": "img/11/xo4.jpg"
+    },
+    {
+      "path": "img/11/xo5.jpg"
+    },
+    {
+      "path": "img/11/xorefr.jpg"
+    },
+    {
+      "path": "img/12/acommodation.jpg"
+    },
+    {
+      "path": "img/12/acommodation.png"
+    },
+    {
+      "path": "img/12/constrct3.jpg"
+    },
+    {
+      "path": "img/12/constrct4.jpg"
+    },
+    {
+      "path": "img/12/constrct5.jpg"
+    },
+    {
+      "path": "img/12/constrcut2.jpg"
+    },
+    {
+      "path": "img/12/construct1.jpg"
+    },
+    {
+      "path": "img/12/convergente.jpg"
+    },
+    {
+      "path": "img/12/convergente.png"
+    },
+    {
+      "path": "img/12/diverge.jpg"
+    },
+    {
+      "path": "img/12/divergente.jpg"
+    },
+    {
+      "path": "img/12/emmetrope.jpg"
+    },
+    {
+      "path": "img/12/exemple.jpg"
+    },
+    {
+      "path": "img/12/hypermet.jpg"
+    },
+    {
+      "path": "img/12/hypermet2.jpg"
+    },
+    {
+      "path": "img/12/imageconstruct.jpg"
+    },
+    {
+      "path": "img/12/imagesvirtuelle.jpg"
+    },
+    {
+      "path": "img/12/lentilles.jpg"
+    },
+    {
+      "path": "img/12/lentillesminces.png"
+    },
+    {
+      "path": "img/12/lunette1.png"
+    },
+    {
+      "path": "img/12/lunette2.jpg"
+    },
+    {
+      "path": "img/12/myope.jpg"
+    },
+    {
+      "path": "img/12/myope2.jpg"
+    },
+    {
+      "path": "img/12/oeil-reduit.jpg"
+    },
+    {
+      "path": "img/12/oeil.jpg"
+    },
+    {
+      "path": "img/12/oeil2.jpg"
+    },
+    {
+      "path": "img/12/oeil3.jpg"
+    },
+    {
+      "path": "img/12/oeil4.jpg"
+    },
+    {
+      "path": "img/12/rayons.jpg"
+    },
+    {
+      "path": "img/13/analogie.jpg"
+    },
+    {
+      "path": "img/13/analogieint.jpg"
+    },
+    {
+      "path": "img/13/analogieten.jpg"
+    },
+    {
+      "path": "img/13/capteur.jpg"
+    },
+    {
+      "path": "img/13/car1.jpg"
+    },
+    {
+      "path": "img/13/car2.jpg"
+    },
+    {
+      "path": "img/13/caracter1.jpg"
+    },
+    {
+      "path": "img/13/caracter2.jpg"
+    },
+    {
+      "path": "img/13/chainecontroleur.jpg"
+    },
+    {
+      "path": "img/13/circuit1.jpg"
+    },
+    {
+      "path": "img/13/dipoles.jpg"
+    },
+    {
+      "path": "img/13/noeud.png"
+    },
+    {
+      "path": "img/13/pointfonction.jpg"
+    },
+    {
+      "path": "img/2/cyan.png"
+    },
+    {
+      "path": "img/2/develop.png"
+    },
+    {
+      "path": "img/2/egs.jpg"
+    },
+    {
+      "path": "img/2/glucose.png"
+    },
+    {
+      "path": "img/2/groupecar.jpg"
+    },
+    {
+      "path": "img/2/groupecar2.jpg"
+    },
+    {
+      "path": "img/2/isomeres.png"
+    },
+    {
+      "path": "img/2/lewis1.jpg"
+    },
+    {
+      "path": "img/2/lewis2.jpg"
+    },
+    {
+      "path": "img/2/lewis3.jpg"
+    },
+    {
+      "path": "img/2/lewis4.jpg"
+    },
+    {
+      "path": "img/2/semidev.png"
+    },
+    {
+      "path": "img/2/tableauliaisons.png"
+    },
+    {
+      "path": "img/2/tableauliaisons2.png"
+    },
+    {
+      "path": "img/2/xo1.jpg"
+    },
+    {
+      "path": "img/2/xo2.jpg"
+    },
+    {
+      "path": "img/2/xo2a.jpg"
+    },
+    {
+      "path": "img/4/dilu.png"
+    },
+    {
+      "path": "img/4/soln.png"
+    },
+    {
+      "path": "img/4/xo1.png"
+    },
+    {
+      "path": "img/4/xo2.png"
+    },
+    {
+      "path": "img/4/xo3.png"
+    },
+    {
+      "path": "img/4/xo4.png"
+    },
+    {
+      "path": "img/4/xo5.png"
+    },
+    {
+      "path": "img/4/xo6.png"
+    },
+    {
+      "path": "img/5/geocentre.png"
+    },
+    {
+      "path": "img/5/heliocentre.png"
+    },
+    {
+      "path": "img/5/heliogeo.png"
+    },
+    {
+      "path": "img/5/xo1.jpg"
+    },
+    {
+      "path": "img/5/xo2.jpg"
+    },
+    {
+      "path": "img/5/xo3.jpg"
+    },
+    {
+      "path": "img/6/1.gif"
+    },
+    {
+      "path": "img/6/2.jpg"
+    },
+    {
+      "path": "img/6/3.jpg"
+    },
+    {
+      "path": "img/6/4.jpg"
+    },
+    {
+      "path": "img/6/fbd.png"
+    },
+    {
+      "path": "img/6/grav1.jpg"
+    },
+    {
+      "path": "img/6/grav2.jpg"
+    },
+    {
+      "path": "img/6/grav3.jpg"
+    },
+    {
+      "path": "img/6/gravab.png"
+    },
+    {
+      "path": "img/6/xo1.jpg"
+    },
+    {
+      "path": "img/6/xo2.jpg"
+    },
+    {
+      "path": "img/6/xo3.jpg"
+    },
+    {
+      "path": "img/6/xo4.jpg"
+    },
+    {
+      "path": "img/6/xo5.jpg"
+    },
+    {
+      "path": "img/6/xo6.jpg"
+    },
+    {
+      "path": "img/7/etats.jpg"
+    },
+    {
+      "path": "img/7/xo1.jpg"
+    },
+    {
+      "path": "img/7/xo2.jpg"
+    },
+    {
+      "path": "img/7/xo3.jpg"
+    },
+    {
+      "path": "img/7/xo4.jpg"
+    },
+    {
+      "path": "img/8/courbefusion.jpg"
+    },
+    {
+      "path": "img/8/cxoproportionalite.jpg"
+    },
+    {
+      "path": "img/8/desintegre.jpg"
+    },
+    {
+      "path": "img/8/egdesintegre.jpg"
+    },
+    {
+      "path": "img/8/etats.jpg"
+    },
+    {
+      "path": "img/8/etats2.jpg"
+    },
+    {
+      "path": "img/8/etatstemp.jpg"
+    },
+    {
+      "path": "img/8/exparticule.jpg"
+    },
+    {
+      "path": "img/8/fission.jpg"
+    },
+    {
+      "path": "img/8/fissionexemple.jpg"
+    },
+    {
+      "path": "img/8/fissionfusion.jpg"
+    },
+    {
+      "path": "img/8/frigo.jpg"
+    },
+    {
+      "path": "img/8/fusion.jpg"
+    },
+    {
+      "path": "img/8/fusionexemple.jpg"
+    },
+    {
+      "path": "img/8/xoenergies.jpg"
+    },
+    {
+      "path": "img/8/xoproportionalite.jpg"
+    },
+    {
+      "path": "img/9/formeonde.jpg"
+    },
+    {
+      "path": "img/9/formeonde2.jpg"
+    },
+    {
+      "path": "img/9/formeonde3.jpg"
+    },
+    {
+      "path": "img/9/logaxe.jpg"
+    },
+    {
+      "path": "img/9/longueurdonde.png"
+    },
+    {
+      "path": "img/9/niveauxsonores.jpg"
+    },
+    {
+      "path": "img/9/ondeair.gif"
+    },
+    {
+      "path": "img/9/ondeair.jpg"
+    },
+    {
+      "path": "img/9/periode.jpg"
+    },
+    {
+      "path": "img/9/periodelongdonde.jpg"
+    },
+    {
+      "path": "img/9/spectre.jpg"
+    },
+    {
+      "path": "img/9/xoperiode.jpg"
+    },
+    {
+      "path": "img/tableauunits.png"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "resources/css/katex.css"
+    },
+    {
+      "path": "resources/css/retype.css"
+    },
+    {
+      "path": "resources/fonts/Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources/fonts/Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_AMS-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_AMS-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_AMS-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Caligraphic-Bold.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Caligraphic-Bold.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Caligraphic-Bold.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Caligraphic-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Caligraphic-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Caligraphic-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Fraktur-Bold.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Fraktur-Bold.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Fraktur-Bold.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Fraktur-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Fraktur-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Fraktur-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Bold.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Bold.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Bold.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-BoldItalic.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-BoldItalic.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-BoldItalic.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Italic.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Italic.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Italic.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Main-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Math-BoldItalic.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Math-BoldItalic.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Math-BoldItalic.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Math-Italic.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Math-Italic.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Math-Italic.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Bold.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Bold.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Bold.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Italic.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Italic.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Italic.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_SansSerif-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Script-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Script-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Script-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size1-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size1-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size1-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size2-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size2-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size2-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size3-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size3-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size3-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size4-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size4-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Size4-Regular.woff2"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Typewriter-Regular.ttf"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Typewriter-Regular.woff"
+    },
+    {
+      "path": "resources/fonts/KaTeX_Typewriter-Regular.woff2"
+    },
+    {
+      "path": "resources/js/config.js"
+    },
+    {
+      "path": "resources/js/katex.js"
+    },
+    {
+      "path": "resources/js/lunr.js"
+    },
+    {
+      "path": "resources/js/prism.js"
+    },
+    {
+      "path": "resources/js/retype.js"
+    },
+    {
+      "path": "resources/js/search.json"
+    },
+    {
+      "path": "resources/katex.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    }
+  ]
+}
