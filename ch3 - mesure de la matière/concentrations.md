@@ -47,7 +47,7 @@ $$
 La concentration massique s’exprime toujours en moles par litre $\; mol\cdot L^{-1}$.
 !!!
 
-!!!warning **Remarque.** *  
+!!!warning **Remarque.**
 On note souvent la concentration d’une espèce chimique avec des crochets $[ \; ]$. La concentration de diiode dans une solution est Donc notée
 : 
 $[I_2]=\frac{n_{I_2}}{V}$, où la concentration d’une eau sucrée peut être notée : $[C_{12}H_{22}O_{11}]=\frac{n_{C_{12}H_{22}O_{11}}}{V}$
