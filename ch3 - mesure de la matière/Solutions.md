@@ -1,5 +1,5 @@
 ---
-Titres : Solutions :glass:
+Titres : Solutions 
 order : 500
 ---
 

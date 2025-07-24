@@ -1,5 +1,5 @@
 ---
-Titres : Dilutions
+title : Dilutions
 order : 300
 ---
 
