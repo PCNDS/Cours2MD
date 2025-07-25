@@ -8,13 +8,24 @@ start:
   # pro: true
 
 branding:
-  title: Cours de Physique - 2nde général
-  label: Physique!
+  title: Cours de Physique 2nde
+  label: Cours
 
 links:
-  - text: Home
-    link: https://retype.com/guides/getting-started/
+  - text: PC@NDS
+    link: https://pcnds.szayyani.com
+    target : blank
 
 footer:
   copyright: "&copy; Copyright S Zayyani {{ 2025 }}. All rights reserved."
 
+# -----------------------------------------------------------------------------
+
+outbound:
+  enabled: true               # Enabled by default on Pro projects
+  custom: 'rel="noopener noreferrer"' # custom attribute added to links
+  icon: link-external         # A custom icon name, :emoji:, <svg>, or
+                              # a path to a file
+  iconAlign: left             # Icon alignment, to the left or right
+  target: blank               # Custom target
+                              # Use "blank" to open link in a new window
