@@ -18,8 +18,8 @@ La concentration massique $C_m$ est le rapport de la masse $m$ du soluté par le
 $$
   C_m=\dfrac{m}{V} \text{ où }  
             \begin{cases}
-            C_n  \quad \text{est la concentration massique} (\; g\cdot L^{-1}) \\
-            n  \quad \text{est la masse du soluté }(g) \\
+            C_m  \quad \text{est la concentration massique} (\; g\cdot L^{-1}) \\
+            m  \quad \text{est la masse du soluté }(g) \\
             V \quad \text{est le volume de la solution }(L)
             \end{cases}
 $$
@@ -48,9 +48,8 @@ La concentration massique s’exprime toujours en moles par litre $\; mol\cdot L
 !!!
 
 !!!warning **Remarque.**
-On note souvent la concentration d’une espèce chimique avec des crochets $[ \; ]$. La concentration de diiode dans une solution est Donc notée
-: 
-$[I_2]=\frac{n_{I_2}}{V}$, où la concentration d’une eau sucrée peut être notée : $[C_{12}H_{22}O_{11}]=\frac{n_{C_{12}H_{22}O_{11}}}{V}$
+On note souvent la concentration d’une espèce chimique avec des crochets [ ]. La concentration de diiode dans une solution est Donc notée : 
+$ [I_2]=\frac{n_{I_2}}{V} $, où la concentration d’une eau sucrée peut être notée : $ [C_{12}H_{22}O_{11}]=\frac{n_{C_{12}H_{22}O_{11}}}{V} $
 !!!
 
 ## Préparer une solution 
@@ -58,7 +57,7 @@ $[I_2]=\frac{n_{I_2}}{V}$, où la concentration d’une eau sucrée peut être n
 
 ==- [!badge Exercice d'application]
 +++ Enoncé 
-$\triangleright  On dissout $3,0\; g$ de diiode
+$\triangleright$  On dissout $3,0\; g$ de diiode
 dans le cyclohexane. On obtient une solution de volume $V=150\; L$.
 
 1.  Déterminer la concentration massique de cette solution.

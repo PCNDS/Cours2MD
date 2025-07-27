@@ -60,7 +60,7 @@ On prélève un volume $V$ de la solution mère. On ajoute alors un volume $v = 
 
 Voici la réalisation pratique d’une dilution :
 
-![Les étapes d'une dilution](../../img/4/dilu.png)
+![Les étapes d'une dilution](../img/4/dilu.png)
 
 ==- [!badge Exercice d'application]
 +++ Enoncé 

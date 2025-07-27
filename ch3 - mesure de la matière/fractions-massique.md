@@ -35,11 +35,9 @@ d’obtenir, en multipliant $f_m$ par $100$, une nouvelle grandeur le
 **pourcentage massique** noté $m\%$ ou $\% mas$.
 
 
-!!!light **Exemple:** La **fonte** et l’**acier** sont des **alliages**
-(<span style="color: purple">(= alloy</span>)) du **fer** et du
-**carbone**. Ce qui différencie l’un de l’autre est la fraction massique
-de carbone. 
-Si le pourcentage massique en carbone est 
+!!!light **Exemple:** La **fonte** et l’**acier** sont des **alliages** du **fer** et du
+**carbone**. Ce qui différencie l’un de l’autre est la fraction massique de carbone. 
+Si le pourcentage massique en carbone est :
 * $0,02\% \leq m\% \leq 2\%  \longrightarrow acier$ 
 * $2\% \leq m\% \leq 6,7\%  \longrightarrow fonte.$
 !!!
@@ -50,7 +48,7 @@ alliages des propriétés très différentes, avec la fonte, par exemple
 
 ==- [!badge Exercice d'application]
 +++ Enoncé 
-$\triangleright  Calculer la masse de chlorure de
+$\triangleright$  Calculer la masse de chlorure de
 sodium et de l’eau nécessaires pour l’obtention de $250\; g$ solution
 de chlorure de sodium avec le pourcentage massique $10\%$.
 +++ Solution
@@ -81,7 +79,7 @@ $f_V$ est sans unité et inférieur ou égal à $1$ (i.e. $f_V \leq 1$
 
 ==- [!badge Exercice d'application]
 +++ Enoncé 
-$\triangleright  Les gaz principaux dans
+$\triangleright$  Les gaz principaux dans
 l’atmosphère sont le diazote et le dioxygène , avec des pourcentages
 volumiques respectifs de $78\%$ et de $21\%$. Déterminer le volume
 de chaque gaz dans un échantillon de $55 \; L$ d’air.

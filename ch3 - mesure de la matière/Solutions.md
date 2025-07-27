@@ -33,7 +33,7 @@ changement d’état.
 
 Le soluté, c’est-à-dire les entités dissoutes dans le solvant peuvent
 être des particules ioniques, appelée une solution ionique (e.g.
-solutions contenant des ions de cuivre (II) $`Cu^{2+}`$ ou de sulfate ,
+solutions contenant des ions de cuivre (II) $Cu^{2+}$ ou de sulfate) ,
 ou des particules moléculaires, appelée une solution moléculaire (e.g.
 solution d’eau sucrée, contenant des molécules de sucre ).
 

@@ -5,9 +5,7 @@ order : 850
 
 # Les quantités molaires
 
-Lors de notre préparation pour la grande fête (le 4 janvier,
-l’anniversaire de Newton, évidemment), on achète nos chouquettes chez les deux grands pâtissiers du quartier : Louis Lorge, et Léo Lafarine. On constate que les chouquettes de Lafarine n’ont ni la même masse ni la
-même taille de celles de Lorge (quel scandale) ! Donc une douzaine de chouquettes de Lafarine n’aura pas non plus la même masse que la douzaine de Lorge (ni la même taille).
+Lors de notre préparation pour la grande fête (le 4 janvier, l’anniversaire de Newton, évidemment), on achète nos chouquettes chez les deux grands pâtissiers du quartier : Louis Lorge, et Léo Lafarine. On constate que les chouquettes de Lafarine n’ont ni la même masse ni la même taille de celles de Lorge (quel scandale) ! Donc une douzaine de chouquettes de Lafarine n’aura pas non plus la même masse que la douzaine de Lorge (ni la même taille).
 
 La situation est identique pour les entités élémentaires : les différentes particules ont des masses différentes, et par conséquent, la masse d’une mole d’un atome diffère de la masse d’une mole d’un autre type d’atome. Ceci nécessite l’introduction des grandeurs dites molaire.
 
@@ -47,11 +45,13 @@ d’hydrogène) a une masse de $1$ gramme.
 
 ==- [!badge Exercice d'application]
 +++ Enoncé 
-$\triangleright  Dans l’état naturel, un
+$\triangleright$  Dans l’état naturel, un
 échantillon de chlore contient les deux isotopes principaux de chlore
 dans les proportions suivantes : $76\%$ de et $24\%$ de .  
-*Données* : $\begin{cases}$ m( ) = 5,807^-23 g$\\
-$ m( ) = 6,138^-23 g$\end{cases}$
+*Données* : 
+$
+\begin{cases} m(C\ell-35 ) = 5,807^-23 g\\ m(C\ell-37 ) = 6,138^-23 g\end{cases}
+$
 +++ Solution
 +++
 ==-
@@ -64,7 +64,7 @@ la molécule.
 
 ==- [!badge Exercice d'application]
 +++ Enoncé 
-$\triangleright$  Calculer la masse molaire de .
+$\triangleright$  Calculer la masse molaire de $H_2O$.
 +++ Solution
 +++
 ==-
@@ -117,7 +117,7 @@ Le volume molaire d’un gaz dépend de la température et de la pression du gaz
 
 ==- [!badge Exercice d'application]
 +++ Enoncé 
-$\triangleright 
+$\triangleright$
 
 1.  Calculer la quantité de matière contenue dans un volume
     $V=1,00 \; L$ de vapeur d’eau à $20 \degree C$ à la pression
@@ -134,11 +134,11 @@ $\triangleright
 ==-
 
 ==- [!button Exercices Résolue]
-![](../img/4/xo1.png")
-
-
-![](../img/4/xo2.png")
+![](../img/4/xo1.png)
 
 
 ![](../img/4/xo3.png)
+
+
+![](../img/4/xo2.png)
 ==-
