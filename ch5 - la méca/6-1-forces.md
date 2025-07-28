@@ -1,6 +1,6 @@
 ---
 Title : Actions & Forces
-order : 1
+order : 50
 ---
 
 # Forces
@@ -29,13 +29,12 @@ Nous avons vu que le mouvement d’un corps est décrit par l’ensemble de sa *
 
 - la vitesse *et* la trajectoire.
 
-!!!light **Exemple:** Imaginons une balle de tennis et une balle de bowling. Si
-on applique la même force, on verra que le mouvement de la balle de
-tennis sera plus modifié que la balle de bowling.
+!!!light **Exemple:** Imaginons une balle de tennis et une balle de bowling. Si l'on applique la même force, on verra que le mouvement de la balle de tennis sera plus modifié que la balle de bowling.
 
 
 ## Vecteur force : Caractéristiques et représentations
 
+!!!success **Défintition.**
 Une force est une grandeur physique dite vectorielle, c’est-à-dire, une grandeur qui a une valeur ainsi que une direction et un sens. Elle est représentée par un segment fléché, appelé **vecteur force**:
 
 - L’origine de la flèche est le point d’application. Pour les forces de contact c’est le point de contact, et pour les forces à distance c’est le **centre de gravité**.
@@ -60,7 +59,6 @@ mes muscles génèrent cette force, qui est transmise à la balle grâce au cont
 appliquée à la balle par la main. Donc cette balle ne subit plus une force de contact.*
 !!!
 
-# Principe d’inertie
 
 !!!success **Définition : *Principe d’inertie***
 
