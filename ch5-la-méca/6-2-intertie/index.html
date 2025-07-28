@@ -3,42 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.806988389908">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.806999203865">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
 
     <!-- Primary Meta Tags -->
-    <title>Actions &amp; Forces</title>
-    <meta name="title" content="Actions & Forces">
-    <meta name="description" content="Une force est une action mécanique capable de modifier et changer le mouvement d’un objet (ou une partie de l’objet).">
+    <title>Principe d&#39;inertie</title>
+    <meta name="title" content="Principe d'inertie">
+    <meta name="description" content="Un système persévère dans son état de repos ou de mouvement rectiligne uniforme si les forces qui s’exercent sur lui se compensent.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.example.com/ch5-la-méca/ch6/">
+    <link rel="canonical" href="https://docs.example.com/ch5-la-méca/6-2-intertie/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.example.com/ch5-la-méca/ch6/">
-    <meta property="og:title" content="Actions & Forces">
-    <meta property="og:description" content="Une force est une action mécanique capable de modifier et changer le mouvement d’un objet (ou une partie de l’objet).">
-    <meta property="og:image" content="https://docs.example.com/img/6/fbd.png">
+    <meta property="og:url" content="https://docs.example.com/ch5-la-méca/6-2-intertie/">
+    <meta property="og:title" content="Principe d'inertie">
+    <meta property="og:description" content="Un système persévère dans son état de repos ou de mouvement rectiligne uniforme si les forces qui s’exercent sur lui se compensent.">
+    <meta property="og:image" content="https://docs.example.com/img/6/xo1.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.example.com/ch5-la-méca/ch6/">
-    <meta property="twitter:title" content="Actions & Forces">
-    <meta property="twitter:description" content="Une force est une action mécanique capable de modifier et changer le mouvement d’un objet (ou une partie de l’objet).">
-    <meta property="twitter:image" content="https://docs.example.com/img/6/fbd.png">
+    <meta property="twitter:url" content="https://docs.example.com/ch5-la-méca/6-2-intertie/">
+    <meta property="twitter:title" content="Principe d'inertie">
+    <meta property="twitter:description" content="Un système persévère dans son état de repos ou de mouvement rectiligne uniforme si les forces qui s’exercent sur lui se compensent.">
+    <meta property="twitter:image" content="https://docs.example.com/img/6/xo1.jpg">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.806988389908" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.806999203865" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.806988389908" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.806999203865" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.806988389908" data-turbo-eval="false" defer></script>
-    <link href="../../resources/css/katex.css?v=3.11.0" rel="stylesheet">
-    <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.11.0" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.806999203865" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -167,124 +165,7 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="forces" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#forces">#</doc-anchor-trigger>
-        <span>Forces</span>
-    </h1>
-</doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
-                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5><strong>Définition : <em>Force</em></strong></h5>
-<ul>
-<li><p>Une force est une <strong>action mécanique</strong> capable de <strong>modifier et
-changer le mouvement</strong> d’un objet (ou une partie de l’objet).</p>
-</li>
-<li><p>Il existe deux types de forces :</p>
-<ul>
-<li><p><strong>Forces de contact</strong> : les actions qui s’exercent tant que le
-contact physique existe. Ex : frottement.</p>
-</li>
-<li><p><strong>Forces à distance</strong> : les actions qui s’exercent sans qu’un
-contact physique soit nécessaire. Ex : gravitation, électrique,
-magnétique.</p>
-</li>
-</ul>
-</li>
-</ul>
-<doc-anchor-target id="effets-dune-force">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#effets-dune-force">#</doc-anchor-trigger>
-        <span>Effets d’une force</span>
-    </h2>
-</doc-anchor-target>
-<p>Nous avons vu que le mouvement d’un corps est décrit par l’ensemble de sa <strong>trajectoire</strong>, et de sa <strong>vitesse</strong>. Une force peut donc modifier :</p>
-<ul>
-<li><p>Uniquement la trajectoire,</p>
-</li>
-<li><p>Uniquement la vitesse,</p>
-</li>
-<li><p>la vitesse <em>et</em> la trajectoire.</p>
-</li>
-</ul>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-light"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-light" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5><strong>Exemple:</strong> Imaginons une balle de tennis et une balle de bowling. Si</h5>
-<p>on applique la même force, on verra que le mouvement de la balle de
-tennis sera plus modifié que la balle de bowling.</p>
-<doc-anchor-target id="vecteur-force--caractéristiques-et-représentations">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#vecteur-force--caractéristiques-et-représentations">#</doc-anchor-trigger>
-        <span>Vecteur force : Caractéristiques et représentations</span>
-    </h2>
-</doc-anchor-target>
-<p>Une force est une grandeur physique dite vectorielle, c’est-à-dire, une grandeur qui a une valeur ainsi que une direction et un sens. Elle est représentée par un segment fléché, appelé <strong>vecteur force</strong>:</p>
-<ul>
-<li><p>L’origine de la flèche est le point d’application. Pour les forces de contact c’est le point de contact, et pour les forces à distance c’est le <strong>centre de gravité</strong>.</p>
-</li>
-<li><p>La direction et le sens de la flèche correspondent à la direction et au sens de la force agissant sur le corps.</p>
-</li>
-<li><p>La longueur est proportionnelle à la valeur de la force.</p>
-</li>
-<li><p>La valeur du vecteur force s’exprime en <strong>newtons</strong>, de symbole <span class="math">N</span>.</p>
-</li>
-</ul>
-<p>On représente les forces agissantes sur un objet avec un <strong>diagramme de forces</strong> – aussi appelé un <strong>diagramme du corps libre</strong>
-<span style="color: purple">(= Free Body Diagram FBD</span>) – qui
-montre le <strong>bilan des forces</strong>.</p>
-<p><figure class="content-center">
-    <img src="../../img/6/fbd.png" alt="Deux exemples de diagramme de bilan des forces" class="rounded-image-rounded border-image-border border-image-border-width" />
-    <figcaption class="caption">Deux exemples de diagramme de bilan des forces</figcaption>
-</figure>
-</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-dark"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-dark" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p><strong>QUESTION</strong> : <em>Je lance une balle de Tennis dans l’air. Après lâcher la balle, subit-elle une force ?</em></p>
-<p><strong>REPONSE</strong> : <em>Non. Car la force de lancer est une force de contact :
-mes muscles génèrent cette force, qui est transmise à la balle grâce au contact entre ma main et la balle. Quand je lâche la balle, il n’y a plus contacte entre ma main et la balle, et par conséquent plus de force
-appliquée à la balle par la main. Donc cette balle ne subit plus une force de contact.</em></p>
-        </div>
-    </div>
-</div>
-        </div>
-    </div>
-</div>
-        </div>
-    </div>
-</div>
-<doc-anchor-target id="principe-dinertie">
+<doc-anchor-target id="principe-dinertie" class="break-words">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#principe-dinertie">#</doc-anchor-trigger>
         <span>Principe d’inertie</span>
@@ -439,11 +320,11 @@ l’information sur l’un nous pouvons en faire une conclusion sur l’autre.</
                             
                                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../ch5-la-méca/5-4-vitesse/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../ch5-la-méca/6-1-forces/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                                <span class="block mt-1">Vitesse</span>
+                                                <span class="block mt-1">Actions & Forces</span>
                                             </span>
                                         </a>
                                     </div>
@@ -496,6 +377,6 @@ l’information sur l’un nous pouvons en faire une conclusion sur l’autre.</
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Actions & Forces", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: true, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Principe d'inertie", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
