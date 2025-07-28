@@ -49,9 +49,9 @@ $\triangleright$  Dans l’état naturel, un
 échantillon de chlore contient les deux isotopes principaux de chlore
 dans les proportions suivantes : $76\%$ de et $24\%$ de .  
 *Données* : 
-$
+$$
 \begin{cases} m(C\ell-35 ) = 5,807^-23 g\\ m(C\ell-37 ) = 6,138^-23 g\end{cases}
-$
+$$
 +++ Solution
 +++
 ==-
