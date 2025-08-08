@@ -1,3 +1,8 @@
+---
+Title : La Force Graviationnelle
+order : 30
+---
+
 # La gravitation
 
 <div class="wrapfigure">
@@ -6,36 +11,25 @@ r0.25 <img src="../img/6/gravAB.png" style="width:25.0%" alt="image" />
 
 </div>
 
-Une étude simple d’un corps en **chute libre**
-<span style="color: purple">(= free fall</span>), nous montre que sa
-trajectoire n’est pas toujours rectiligne et surtout que son mouvement
-n’est pas uniforme. On en déduit, d’après le principe d’inertie que le
-corps n’est pas soumise à des forces qui se compensent. En effet, en
-négligeant le frottement et la résistance de l’air, **la seule force**
-agissant sur l’objet est celle de **la pesanteur**.
+Une étude simple d’un corps en **chute libre** <span style="color: purple">(= free fall</span>), nous montre que sa trajectoire n’est pas toujours rectiligne et surtout que son mouvement n’est pas uniforme. On en déduit, d’après le principe d’inertie que le corps n’est pas soumise à des forces qui se compensent. En effet, en négligeant le frottement et la résistance de l’air, **la seule force** agissant sur l’objet est celle de **la pesanteur**.
 
-En effet, c’est Newton qui a affirmé que **tout corps ayant une masse
-sont toujours soumis à une interaction attractive due à leurs masses** :
-c’est la b.
+En effet, c’est Newton qui a affirmé que **tout corps ayant une masse sont toujours soumis à une interaction attractive due à leurs masses** : c’est la gravitation universelle.
 
-La force exercée par $`A`$ sur $`B`$ est $`\vec{F}_{A/B}`$ et celle de
-$`B`$ sur $`A`$ est $`\vec{F}_{B/A}`$.
+La force exercée par $A$ sur $B$ est $\vec{F}_{A/B}$ et celle de $B$ sur $A$ est $\vec{F}_{B/A}$.
 
-<div class="leftbar">
-
-**Définition : *Loi de gravitation universelle de Newton***  
-Soient deux corps de petites tailles, assimilables à des points $`A`$ et
-$`B`$, et de masses $`m_A`$ et $`m_B`$. Une distance de $`d`$ les
+!!!success **Définition : *Loi de gravitation universelle de Newton***  
+Soient deux corps de petites tailles, assimilables à des points $A$ et
+$B$, et de masses $m_A$ et $m_B$. Une distance de $d$ les
 sépare.
 
-- La force exercée par $`A`$ sur $`B`$ est $`\vec{F}_{A/B}`$ et celle de
-  $`B`$ sur $`A`$ est $`\vec{F}_{B/A}`$.
+- La force exercée par $A$ sur $B$ est $\vec{F}_{A/B}$ et celle de
+  $B$ sur $A$ est $\vec{F}_{B/A}$.
 
 - les deux forces ont la même valeur (intensité), mais sont dirigées
   dans de sens opposé.
 
 - La valeur de cette force est donnée par l’équation suivante :
-  ``` math
+  $$
   F_{A/B} = {F}_{B/A} = G\cdot\dfrac{m_A\cdot m_B}{d^2} \text{\quad où \quad}
       \begin{cases}
       F \text{ est exprimé en newtons, } N \\
@@ -43,14 +37,13 @@ sépare.
       G \text{ est la constante universelle de gravitation en }  \\   
       \text{     } m^3\cdot kg^{-1} \cdot s^{-2}
       \end{cases}
-  ```
+  $$
+!!!
 
-</div>
-
-$`G`$ est appelé la **constante universelle de gravitation**
+$G$ est appelé la **constante universelle de gravitation**
 <span style="color: purple">(= Universal gravitational constant </span>)
 et a une valeur de
-$`G=6,67\cdot 10^{-11}\quad m^3\cdot kg^{-1} \cdot s^{-2}`$.
+$G=6,67\cdot 10^{-11}\quad m^3\cdot kg^{-1} \cdot s^{-2}$.
 
 Les facteurs donc influençant la valeur de la force gravitationnelle
 sont :
@@ -63,18 +56,18 @@ sont :
 
 <div class="shaded">
 
-$`\triangleright \quad`$**Exercice .** Calculer la valeur $`F`$ des
+$\triangleright \quad$**Exercice .** Calculer la valeur $F$ des
 forces gravitationnelle entre deux masses sphériques d’une même masse
-$`m=50`$ kg à une distance de $`d=5,0`$ m.
+$m=50$ kg à une distance de $d=5,0$ m.
 
 </div>
 
 <div class="shaded">
 
-$`\triangleright \quad`$**Exercice .** Même question qu’avant en
+$\triangleright \quad$**Exercice .** Même question qu’avant en
 considérant cette fois deux masse sphériques de
-$`M_{Terre}=6,0\cdot 10^{24}`$ kg et $`M_{soleil}=2,0\cdot 10^{30}`$ kg
-séparées d’une distance $`d=150 \text{  millions de km}`$. Commenter les
+$M_{Terre}=6,0\cdot 10^{24}$ kg et $M_{soleil}=2,0\cdot 10^{30}$ kg
+séparées d’une distance $d=150 \text{  millions de km}$. Commenter les
 résultats.
 
 </div>
@@ -97,17 +90,17 @@ résultats.
 
 <div class="shaded">
 
-$`\triangleright \quad`$**Exercice .** **Gravitation d’une Planète**
+$\triangleright \quad$**Exercice .** **Gravitation d’une Planète**
 
 Un corps à répartition sphérique de masse est un corps sphérique dont la
 matière est répartie uniformément (ou en couche sphérique) autour de son
 centre. En première approximation, le Soleil, la Terre et les autres
 étoiles et planètes peuvent être considérer comme des corps à
 répartition sphérique. Donc du point de vu de l’attraction
-gravitationnelle ils sont équivalents à un objet ponctuel, situé à $`O`$
+gravitationnelle ils sont équivalents à un objet ponctuel, situé à $O$
 (le centre de la sphère). Calculer l’expression de la force
 gravitationnelle exercée par la Terre sur un objet situé à une altitude
-de $`\textbf{z}`$.
+de $\textbf{z}$.
 
 </div>
 
@@ -136,35 +129,35 @@ de $`\textbf{z}`$.
 
 ## Expression littérale du poids
 
-Considérons un corps quelconque a avec une masse de $`m_A`$ au voisinage
-de la surface de la Terre avec une masse de $`m_T`$. Appliquons la loi
+Considérons un corps quelconque a avec une masse de $m_A$ au voisinage
+de la surface de la Terre avec une masse de $m_T$. Appliquons la loi
 de Gravitation Universelle :
 ``` math
 F_{T/A} = F_{A/T} =  F = G\cdot \dfrac{m_A\cdot m_T}{d^2}
 ```
 
-A la surface de la Terre la distance $`d`$ (entre l’objet à la surface
-et le centre de la Terre) est égale au rayon de la Terre $`R_t`$.
+A la surface de la Terre la distance $d$ (entre l’objet à la surface
+et le centre de la Terre) est égale au rayon de la Terre $R_t$.
 L’équation de la force gravitationnelle devient donc :
 
 ``` math
 F = G\cdot \dfrac{m_A\cdot m_T}{R_T^2}
 ```
-On sait que $`G`$ est une constante. Mais la masse de la Terre est
+On sait que $G$ est une constante. Mais la masse de la Terre est
 constante aussi, ainsi que le Rayon Terrestre. On peut donc réécrire
-l’expression de $`F`$ ainsi :
+l’expression de $F$ ainsi :
 
 ``` math
 F = \left(G\cdot \dfrac{m_T}{R_T^2}\right)\cdot m_A
 ```
-L’expression $`(G\cdot \dfrac{m_T}{R_T^2})`$ est une constante, donc on
-peut la renommer $`g`$. On arrive ainsi à l’expression suivante (que
+L’expression $(G\cdot \dfrac{m_T}{R_T^2})$ est une constante, donc on
+peut la renommer $g$. On arrive ainsi à l’expression suivante (que
 vous devez reconnaitre) :
 ``` math
 poids = F_g = P = m\cdot g \quad où \quad g=G\cdot \dfrac{m_T}{R_T^2}=9,8 \; N\cdot kg^{-1}
 ```
 
-La constante $`g`$ s’appelle "l’**intensité de la pesanteur**", et est
+La constante $g$ s’appelle "l’**intensité de la pesanteur**", et est
 une constante qui caractérise l’intensité du **champ gravitationnel au
 voisinage de la Terre**. On voit donc qu’à la surface de la Terre le
 champ de la gravité Terrestre est plus ou moins constant.
@@ -176,27 +169,27 @@ Terre PLUS l’altitude par rapport à la surface de la Terre).
 En fait, la Terre n’étant pas exactement sphérique, le poids d’un objet
 dépend aussi de sa position sur la Terre. Notre planète est légèrement
 aplatie aux pôles, par conséquent le poids d’un objet est plus fort aux
-pôles ($`R_T`$ étant plus petit), et plus faible à l’équateur ($`R_t`$
+pôles ($R_T$ étant plus petit), et plus faible à l’équateur ($R_t$
 étant plus grand).
 
 <div class="shaded">
 
-$`\triangleright \quad`$**Exercice .** **Pesanteur sur la Terre**
+$\triangleright \quad$**Exercice .** **Pesanteur sur la Terre**
 
-Calculer la valeur $`g_z`$ de l’intensité de la pesanteur sur la Terre à
-une altitude de $`z`$. Faites l’application numérique au sommet
-d’Everest ($`8,8`$ km).
+Calculer la valeur $g_z$ de l’intensité de la pesanteur sur la Terre à
+une altitude de $z$. Faites l’application numérique au sommet
+d’Everest ($8,8$ km).
 
 </div>
 
 <div class="shaded">
 
-$`\triangleright \quad`$**Exercice .** **Pesanteur sur la Lune**
+$\triangleright \quad$**Exercice .** **Pesanteur sur la Lune**
 
-Calculer la valeur $`g_L`$ de l’intensité de la pesanteur sur la Lune en
-sachant que le rayon de la Lune est de $`R_L=1740 km`$ , et la masse
-lunaire $`m_L= 7,35\cdot 10^{22}`$ kg. Puis, calculer le poids d’un
-objet de masse $`m=80`$ kg à la surface de la Lune.
+Calculer la valeur $g_L$ de l’intensité de la pesanteur sur la Lune en
+sachant que le rayon de la Lune est de $R_L=1740 km$ , et la masse
+lunaire $m_L= 7,35\cdot 10^{22}$ kg. Puis, calculer le poids d’un
+objet de masse $m=80$ kg à la surface de la Lune.
 
 </div>
 
@@ -247,11 +240,11 @@ En appliquant cette décomposition à un projectile, on peut étudier son
 mouvement horizontal et vertical lors d’une chute libre.
 
 - Suivant l’horizontale, les distances entre deux positions successives
-  restent constantes pendant des durées égales $`\Rightarrow`$ le
+  restent constantes pendant des durées égales $\Rightarrow$ le
   mouvement est uniforme
 
 - Suivant la verticale, les distances entre deux positions successives
-  varient pendant des durées égales $`\Rightarrow`$ le mouvement est
+  varient pendant des durées égales $\Rightarrow$ le mouvement est
   accéléré (je considère ici que les mouvements ralentis sont accéléré
   aussi, sauf avec une accélération négative).
 
@@ -286,7 +279,7 @@ vitesse de direction parallèle à la surface terrestre. On peut envisager
     alors constante.
 
 4.  Pour les valeurs de vitesse supérieur à celle de 3)
-    ($`11,2 \; km\cdot h^{-1}`$ : vitesse de libération de la Terre
+    ($11,2 \; km\cdot h^{-1}$ : vitesse de libération de la Terre
     <span style="color: purple">(= escape velocity</span>) le projectile
     échappe à l’attraction terrestre et quitte le voisinage de la Terre.
     Touts objets désirant aller dans l’espace ont besoin de franchir
