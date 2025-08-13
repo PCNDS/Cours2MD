@@ -40,6 +40,14 @@ $$
 $$
 !!!
 
+<center>
+```mermaid 
+flowchart LR 
+  A(( état des forces )) --> B((le mouvement))
+  B --> A
+```
+</center>
+
 Considérons alors les situations suivantes, et essayons de les expliquer grâce au principe d’inertie :
 
 +++ Situation 1
