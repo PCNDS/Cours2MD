@@ -31,8 +31,7 @@ On peut étudier l’évolution de la vitesse d’un mobile, en comparant les di
 
 - Les distances $d$ **diminuent** $\to$ la vitesse **diminue** $\Rightarrow$ mouvement **ralenti/retardé**
 
-==-
-[!button Exercices Résolus]
+==- [!button Exercices Résolus]
 ![](../img/5/xo1.jpg)
 ![](../img/5/xo2.jpg)
 ![](../img/5/xo3.jpg)

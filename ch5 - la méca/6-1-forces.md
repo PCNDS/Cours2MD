@@ -41,6 +41,7 @@ Une force est une grandeur physique dite vectorielle, c’est-à-dire, une grand
 - La longueur est proportionnelle à la valeur de la force.
 
 - La valeur du vecteur force s’exprime en **newtons**, de symbole $N$.
+!!!
 
 On représente les forces agissantes sur un objet avec un **diagramme de forces** – aussi appelé un **diagramme du corps libre** <span style="color: purple">(= Free Body Diagram FBD</span>) – qui montre le **bilan des forces**.
 

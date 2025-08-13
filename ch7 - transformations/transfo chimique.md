@@ -1,3 +1,7 @@
+--- 
+Title : Transformations chimiques 
+order : 100
+---
 # Système Chimique
 
 Nous avons désormais tous les outils nécessaires pour une étude concrète
@@ -5,9 +9,7 @@ et quantitative chimique. Mais il faut d’abord définir quelques notions
 de base, notamment celle d’un « système chimique », qui sera l’arène des
 réactions chimiques que nous étudierons.
 
-<div class="leftbar">
-
-**Définition : *Système Chimique***
+!!!success **Définition : *Système Chimique***
 
 Un système chimique est un ensemble d’espèces chimiques. Afin d’étudier
 la réaction chimique il faut déterminer l’état du système chimique,
@@ -15,18 +17,16 @@ c’est-à-dire :
 
 - La nature, et quantité de matière de chaque espèce
 
-- L’état physique des espèces : solide (*s*), liquide ($`\ell`$), gazeux
+- L’état physique des espèces : solide (*s*), liquide ($\ell$), gazeux
   (*g*) ou aqueuse (*aq*).
 
 - La température (T) et la pression (P) du système.
 
-</div>
+!!!
 
 # Transformations chimiques
 
-<div class="leftbar">
-
-**Définition : *Etats d’un système chimique***
+!!!success **Définition : *Etats d’un système chimique***
 
 - L’état initial (EI) d’un système chimique est l’état du système au
   moment de la mise en contact des réactifs. Il s’agit d’un état
@@ -50,68 +50,61 @@ c’est-à-dire :
 
 - Les espèces chimiques présentes qui ne participent pas à la réaction
   s’appellent les spectateurs.
+!!!
 
-</div>
-
-<figure>
-<p><span>h</span> <img src="../img/7/etats.jpg" alt="image" /></p>
-</figure>
+![](../img/7/etats.jpg)
 
 Nous voyons donc que les méthodes de mesures de quantités exactes sont
 très impotantes. Révisons alors ces méthodes :
 
 - **Notre meilleur ami (NMA)** : qui nous permet de mesurer une quantité
   de matière à partir d’une masse :
-  ``` math
-  n=\dfrac{m}{M} \quad \Longleftrightarrow m = n\cdot M
-  ```
+  $$
+  n=\dfrac{m}{M} \quad \Longleftrightarrow m = n\cdot M 
+  $$
 
 - **Masse volumique** : Pour un corps liquide il est plus facile de
   mesurer un volume qu’une masse, il faut donc utiliser la masse
-  volumique $`\rho_x`$ , ou sa densité $`d_x`$ :
-  ``` math
+  volumique $\rho_x$ , ou sa densité $d_x$ :
+  $$
   \rho_x = \dfrac{m_x}{V} \quad \begin{cases}
       m_x \longrightarrow\text{masse de la substance $x$} \\
       V \longrightarrow\text{volume que la masse occupe}
       \end{cases}
-  ```
-  ``` math
+  $$
+  $$
   d_x=\dfrac{\rho_x}{\rho_{eau}}
-  ```
+  $$
   Nous avons donc :
-  ``` math
+  $$
   \rho_x = \dfrac{m_x}{V} = d_x\cdot \rho_{eau}
       \Longleftrightarrow m_x = d_x\cdot\rho_{eau}\cdot V
-  ```
+  $$
   et donc combiné avec NMA :
-  ``` math
+  $$
   n= \dfrac{d_x\cdot\rho_{eau}\cdot V}{M}
-  ```
+  $$
 
 - **Dans le cas d’une solution** : en utilisant la **concentration**
-  ``` math
+  $$
   C=\dfrac{n}{V} \Longleftrightarrow n=C\cdot V \\
-  ```
-  ``` math
+  $$
+  $$
   C_m = \dfrac{m}{V}=\dfrac{n\cdot M}{V} \Longleftrightarrow n=\dfrac{C_m \cdot V}{M}
-  ```
+  $$
 
-<div class="mdframed">
-
-**Remarque.** *La concentration massique d’une solution saturée
+!!!warning **Remarque.** 
+*La concentration massique d’une solution saturée
 s’appelle la *solubilité*, c’est-à-dire la quantité maximum de soluté
 que l’on peut dissoudre dans ce solvant*
-
-</div>
+!!!
 
 # Réaction chimique
 
 Afin de pouvoir étudier une transformation chimique on la modélise. Ce
 modèle s’appelle une réaction chimique.
 
-<div class="leftbar">
-
-**Définition : *Réaction chimique***
+!!!success **Définition : *Réaction chimique***
 
 - La **description à l’échelle macroscopique** de l’évolution d’un
   système chimique est **modélisée par une réaction chimique**
@@ -130,11 +123,9 @@ modèle s’appelle une réaction chimique.
   produits cessent d’évoluer. Ceci est souvent du à l’épuisement d’un
   des réactifs.
 
-</div>
+!!!
 
-<div class="leftbar">
-
-**Définition : *Réactif limitant & réactif en excès***
+!!!success **Définition : *Réactif limitant & réactif en excès***
 
 - Le réactif qui s’épuise en premier s’appelle le **réactif limitant**.
 
@@ -144,7 +135,7 @@ modèle s’appelle une réaction chimique.
 - Si à la fin de la réaction tous les réactifs sont épuisés, on dit
   qu’ils étaient présent en **proportions stœchiométrique**.
 
-</div>
+!!!
 
 Alors, afin de pouvoir déterminer les proportions dans lesquelles les
 espèces réagissent et se forment, notre motivation principale sera le
@@ -160,15 +151,15 @@ principe de la conservation de la matière, ou plus précisément :
 Les proportions dans lesquelles les espèces réagissent ou se forment
 s’appellent les **nombres (ou coefficients) stoechiométriques**. La
 notation générale d’une réaction quelconque s’écrit :
-``` math
+$$
 a\ch{A} + b\ch{B} \longrightarrow c\;\ch{C} + d\;\ch{D}
-```
-``` math
+$$
+$$
 où \quad \begin{cases}
 A,B,C,D \quad \quad \text{sont les symboles et formules chimiques des espèces} \\
 a,b,c,d \quad \quad \text{sont les nombres stœchiométriques} 
 \end{cases}
-```
+$$
 
 <div class="tcolorbox">
 
@@ -194,24 +185,24 @@ a,b,c,d \quad \quad \text{sont les nombres stœchiométriques}
     stoechiométriques ajustés, puis vérifier la loi de conservation de
     la matière et de la charge.
 
-</div>
+!!!
 
 <div class="shaded">
 
-$`\triangleright \quad`$**Exercice .** Équilibrer les réactions
+$\triangleright \quad$**Exercice .** Équilibrer les réactions
 suivantes :
 
-1.  $`\quad\quad \ch{H2} \quad\quad+ \quad\quad \ch{O2}  \quad\quad \longrightarrow\quad\quad \ch{H2O}`$
+1.  $\quad\quad \ch{H2} \quad\quad+ \quad\quad \ch{O2}  \quad\quad \longrightarrow\quad\quad \ch{H2O}$
 
-2.  $`\quad\quad \ch{H2} \quad\quad+ \quad\quad \ch{N2}  \quad\quad \longrightarrow\quad\quad \ch{NH3}`$
+2.  $\quad\quad \ch{H2} \quad\quad+ \quad\quad \ch{N2}  \quad\quad \longrightarrow\quad\quad \ch{NH3}$
 
-3.  $`\quad\quad \ch{C2H5OH} \quad\quad+ \quad\quad \ch{O2} \quad\quad\longrightarrow\quad\quad \ch{CO2} \quad\quad+\quad\quad \ch{H2O}`$
+3.  $\quad\quad \ch{C2H5OH} \quad\quad+ \quad\quad \ch{O2} \quad\quad\longrightarrow\quad\quad \ch{CO2} \quad\quad+\quad\quad \ch{H2O}$
 
-4.  $`\quad\quad \ch{C8H18} \quad\quad+ \quad\quad \ch{O2}\quad\quad \longrightarrow\quad\quad \ch{CO2} \quad\quad+\quad\quad \ch{H2O}`$
+4.  $\quad\quad \ch{C8H18} \quad\quad+ \quad\quad \ch{O2}\quad\quad \longrightarrow\quad\quad \ch{CO2} \quad\quad+\quad\quad \ch{H2O}$
 
-5.  $`\quad\quad \ch{H2O} \quad\quad+ \quad\quad \ch{CO} \quad\quad + \quad\quad \ch{F2} \quad\quad+\quad\quad \longrightarrow\quad\quad\ch{C6H5F}\quad\quad  + \ch{O2}`$
+5.  $\quad\quad \ch{H2O} \quad\quad+ \quad\quad \ch{CO} \quad\quad + \quad\quad \ch{F2} \quad\quad+\quad\quad \longrightarrow\quad\quad\ch{C6H5F}\quad\quad  + \ch{O2}$
 
-</div>
+!!!
 
 <figure>
 <img src="../img/7/xo1.jpg" />
@@ -243,9 +234,7 @@ existent :
 
 # Synthèse chimique
 
-<div class="leftbar">
-
-**Définition : *Naturel, synthétique, artificiel***
+!!!success **Définition : *Naturel, synthétique, artificiel***
 
 - Une espèce chimique est considérée **naturelle** si elle se forme dans
   la nature, sans intervention humaine (eg. eau formée dans la nature)
@@ -261,7 +250,7 @@ existent :
 - La synthèse d’une espèce chimique est le fabrication de cette espèce
   par une transformation chimique.
 
-</div>
+!!!
 
 **Quel est l’intérêt pour l’homme de sythétiser?**
 

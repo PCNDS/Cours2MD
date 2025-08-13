@@ -28,7 +28,8 @@ graph LR
   B --> A
 ```
 </center>
-***Si l'on connait l'état des forces agissants sur l'objet on peu en conclure sur le mouvement du corps, et reciproquement, si l'on connait le mouvement de l'objet on peut en conclure sur l'état des forcs agissant sur lui. ***
+
+***Si l'on connait l'état des forces agissant sur l'objet on peu en conclure sur le mouvement du corps, et reciproquement, si l'on connait le mouvement de l'objet on peut en conclure sur l'état des forcs agissant sur lui.***
 
 $$
 \text{Les forces se compensent} \Leftrightarrow
