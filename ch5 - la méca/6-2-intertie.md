@@ -41,8 +41,9 @@ $$
 !!!
 
 <center>
+
 ```mermaid 
-flowchart LR 
+graph LR 
   A(( état des forces )) --> B((le mouvement))
   B --> A
 ```
