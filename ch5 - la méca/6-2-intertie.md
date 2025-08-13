@@ -7,8 +7,7 @@ order : 40
 
 !!!success **Définition : *Principe d’inertie***
 
-- Un système persévère dans son **état de
-  repos** ou de mouvement rectiligne uniforme **si les forces qui s’exercent sur lui se compensent.**
+- Un système persévère dans son **état de repos** ou de mouvement rectiligne uniforme **si les forces qui s’exercent sur lui se compensent.**
 
 - Réciproquement, si un système persévère dans son état de repos ou de mouvement rectiligne uniforme, cela signifie que les forces agissant sur le système s’annulent.
 
@@ -21,6 +20,15 @@ Ce qui fait la puissance de ce principe simple est le fait qu’il établit une 
 l’information sur l’un nous pouvons en faire une conclusion sur l’autre.**
 
 !!!info **En  résumé :** 
+<center>
+
+```mermaid 
+graph LR 
+  A(( état des forces )) --> B((le mouvement))
+  B --> A
+```
+</center>
+***Si l'on connait l'état des forces agissants sur l'objet on peu en conclure sur le mouvement du corps, et reciproquement, si l'on connait le mouvement de l'objet on peut en conclure sur l'état des forcs agissant sur lui. ***
 
 $$
 \text{Les forces se compensent} \Leftrightarrow
@@ -40,14 +48,8 @@ $$
 $$
 !!!
 
-<center>
 
-```mermaid 
-graph LR 
-  A(( état des forces )) --> B((le mouvement))
-  B --> A
-```
-</center>
+
 
 Considérons alors les situations suivantes, et essayons de les expliquer grâce au principe d’inertie :
 

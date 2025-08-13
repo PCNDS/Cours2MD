@@ -43,8 +43,7 @@ Quelles conclusions pouvons-nous en tirer alors?
 
 - Toute étude du mouvement d’un corps doit être faite **par rapport** à un observateur. On peut prendre un **point de référence** sur l’observateur par rapport auquel on étudiera le mouvement. La description du mouvement d’un mouvement du système **dépend en effet du point de référence choisi**. Le mouvement est donc *relatif* à ce point de référence.
 
-- Ce point de référence s’appelle un **Référentiel**
-  <span style="color: purple">(= frame of reference</span>). (L’observateur est, naturellement, immobile dans ce référentiel).
+- Ce point de référence s’appelle un **Référentiel** <span style="color: purple">(= frame of reference</span>). (L’observateur est, naturellement, immobile dans ce référentiel).
 
 - Un mouvement est donc un **déplacement**(changement de position) par rapport à un point fixe.
 !!!
