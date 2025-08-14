@@ -191,7 +191,6 @@ brisées et formées nous pouvons voir que deux possibilités énergétiques exi
 
 Dans cette optique l’importance d’une connaissance quantitative ainsi qu’une compréhension qualitative des transformations chimiques, son EI et EF, les mesures précises des espèces avant et après la transformation, est évidente !!
 
-
 ==- [!Button Exercices Résolus]
 ![](../img/7/xo2.jpg)
 
